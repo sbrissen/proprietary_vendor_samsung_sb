@@ -38,10 +38,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2/proprietary/graphics/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
     vendor/samsung/galaxys2/proprietary/graphics/lib/hw/gralloc.smdkv310.so:system/lib/hw/gralloc.smdkv310.so
 
-# COMPOSER
-PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxys2/proprietary/composer/lib/libfimg.so:system/lib/libfimg.so \
-    vendor/samsung/galaxys2/proprietary/composer/lib/hw/hwcomposer.smdkv310.so:system/lib/hw/hwcomposer.smdkv310.so
+# COMPOSER - needs tvout
+#PRODUCT_COPY_FILES += \
+#    vendor/samsung/galaxys2/proprietary/composer/lib/libfimg.so:system/lib/libfimg.so \
+#    vendor/samsung/galaxys2/proprietary/composer/lib/hw/hwcomposer.smdkv310.so:system/lib/hw/hwcomposer.smdkv310.so
 
 # AUDIO
 #PRODUCT_COPY_FILES += \
