@@ -31,12 +31,21 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2/proprietary/graphics/lib/libGLESv2.so:system/lib/libGLESv2.so \
     vendor/samsung/galaxys2/proprietary/graphics/lib/libMali.so:system/lib/libMali.so \
     vendor/samsung/galaxys2/proprietary/graphics/lib/libOpenSLES.so:system/lib/libOpenSLES.so \
+    vendor/samsung/galaxys2/proprietary/graphics/lib/libUMP.so:system/lib/libUMP.so \
     vendor/samsung/galaxys2/proprietary/graphics/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
     vendor/samsung/galaxys2/proprietary/graphics/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/samsung/galaxys2/proprietary/graphics/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
     vendor/samsung/galaxys2/proprietary/graphics/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
-    vendor/samsung/galaxys2/proprietary/graphics/lib/hw/copybit.GT-I9100.so:system/lib/hw/copybit.GT-I9100.so \
-    vendor/samsung/galaxys2/proprietary/graphics/lib/hw/gralloc.GT-I9100.so:system/lib/hw/gralloc.GT-I9100.so
+    vendor/samsung/galaxys2/proprietary/graphics/lib/hw/gralloc.smdkv310.so:system/lib/hw/gralloc.smdkv310.so
+
+# COMPOSER
+PRODUCT_COPY_FILES += \
+    vendor/samsung/galaxys2/proprietary/composer/lib/libfimg.so:system/lib/libfimg.so \
+    vendor/samsung/galaxys2/proprietary/composer/lib/hw/hwcomposer.smdkv310.so:system/lib/hw/hwcomposer.smdkv310.so
+
+# SENSORS
+PRODUCT_COPY_FILES += \
+    vendor/samsung/galaxys2/proprietary/sensors/lib/libakm.so:system/lib/libakm.so
 
 # GPS
 PRODUCT_COPY_FILES += \
