@@ -43,6 +43,35 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2/proprietary/composer/lib/libfimg.so:system/lib/libfimg.so \
     vendor/samsung/galaxys2/proprietary/composer/lib/hw/hwcomposer.smdkv310.so:system/lib/hw/hwcomposer.smdkv310.so
 
+# AUDIO
+#PRODUCT_COPY_FILES += \
+#    vendor/samsung/galaxys2/proprietary/audio/etc/asound.conf:system/etc/asound.conf \
+#    vendor/samsung/galaxys2/proprietary/audio/etc/audio/LVVEFS_Rx_Configuration.txt:system/etc/audio/LVVEFS_Rx_Configuration.txt \
+#    vendor/samsung/galaxys2/proprietary/audio/etc/audio/LVVEFS_Tx_Configuration.txt:system/etc/audio/LVVEFS_Tx_Configuration.txt \
+#    vendor/samsung/galaxys2/proprietary/audio/etc/audio/Rx_ControlParams_BLUETOOTH_HEADSET.txt:system/etc/audio/Rx_ControlParams_BLUETOOTH_HEADSET.txt \
+#    vendor/samsung/galaxys2/proprietary/audio/etc/audio/Rx_ControlParams_EARPIECE_WIDEBAND.txt:system/etc/audio/Rx_ControlParams_EARPIECE_WIDEBAND.txt \
+#    vendor/samsung/galaxys2/proprietary/audio/etc/audio/Rx_ControlParams_SPEAKER_WIDEBAND.txt:system/etc/audio/Rx_ControlParams_SPEAKER_WIDEBAND.txt \
+#    vendor/samsung/galaxys2/proprietary/audio/etc/audio/Rx_ControlParams_WIRED_HEADPHONE_WIDEBAND.txt:system/etc/audio/Rx_ControlParams_WIRED_HEADPHONE_WIDEBAND.txt \
+#    vendor/samsung/galaxys2/proprietary/audio/etc/audio/Rx_ControlParams_WIRED_HEADSET_WIDEBAND.txt:system/etc/audio/Rx_ControlParams_WIRED_HEADSET_WIDEBAND.txt \
+#    vendor/samsung/galaxys2/proprietary/audio/etc/audio/Tx_ControlParams_BLUETOOTH_HEADSET.txt:system/etc/audio/Tx_ControlParams_BLUETOOTH_HEADSET.txt \
+#    vendor/samsung/galaxys2/proprietary/audio/etc/audio/Tx_ControlParams_EARPIECE_WIDEBAND.txt:system/etc/audio/Tx_ControlParams_EARPIECE_WIDEBAND.txt \
+#    vendor/samsung/galaxys2/proprietary/audio/etc/audio/Tx_ControlParams_SPEAKER_WIDEBAND.txt:system/etc/audio/Tx_ControlParams_SPEAKER_WIDEBAND.txt \
+#    vendor/samsung/galaxys2/proprietary/audio/etc/audio/Tx_ControlParams_WIRED_HEADPHONE_WIDEBAND.txt:system/etc/audio/Tx_ControlParams_WIRED_HEADPHONE_WIDEBAND.txt \
+#    vendor/samsung/galaxys2/proprietary/audio/etc/audio/Tx_ControlParams_WIRED_HEADSET_WIDEBAND.txt:system/etc/audio/Tx_ControlParams_WIRED_HEADSET_WIDEBAND.txt \
+#    vendor/samsung/galaxys2/proprietary/audio/lib/libasound.so:system/lib/etc/audio/libasound.so \
+#    vendor/samsung/galaxys2/proprietary/audio/lib/libaudio.so:system/lib/etc/audio/libaudio.so \
+#    vendor/samsung/galaxys2/proprietary/audio/lib/liblvvefs.so:system/lib/etc/audio/liblvvefs.so \
+#    vendor/samsung/galaxys2/proprietary/audio/lib/libmediayamaha.so:system/lib/etc/audio/libmediayamaha.so \
+#    vendor/samsung/galaxys2/proprietary/audio/lib/libmediayamaha_jni.so:system/lib/etc/audio/libmediayamaha_jni.so \
+#    vendor/samsung/galaxys2/proprietary/audio/lib/libmediayamahaservice.so:system/lib/etc/audio/libmediayamahaservice.so \
+#    vendor/samsung/galaxys2/proprietary/audio/lib/libsamsungAcousticeq.so:system/lib/etc/audio/libsamsungAcousticeq.so \
+#    vendor/samsung/galaxys2/proprietary/audio/lib/lib_Samsung_Acoustic_Module_Llite.so:system/lib/etc/audio/lib_Samsung_Acoustic_Module_Llite.so \
+#    vendor/samsung/galaxys2/proprietary/audio/lib/libSamsungPDLComposer.so:system/lib/etc/audio/libSamsungPDLComposer.so \
+#    vendor/samsung/galaxys2/proprietary/audio/lib/lib_Samsung_Resampler.so:system/lib/etc/audio/lib_Samsung_Resampler.so \
+#    vendor/samsung/galaxys2/proprietary/audio/lib/libsamsungSoundbooster.so:system/lib/etc/audio/libsamsungSoundbooster.so \
+#    vendor/samsung/galaxys2/proprietary/audio/lib/lib_Samsung_Sound_Booster.so:system/lib/etc/audio/lib_Samsung_Sound_Booster.so \
+#    vendor/samsung/galaxys2/proprietary/audio/lib/libyamahasrc.so:system/lib/etc/audio/libyamahasrc.so
+
 # SENSORS
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2/proprietary/sensors/lib/libakm.so:system/lib/libakm.so
