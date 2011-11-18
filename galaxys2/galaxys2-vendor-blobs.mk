@@ -82,5 +82,8 @@ PRODUCT_COPY_FILES += \
 
 # WIFI
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxys2/proprietary/wifi/bin/BCM4330B1_002.001.003.0221.0265.hcd:system/bin/BCM4330B1_002.001.003.0221.0265.hcd
+    vendor/samsung/galaxys2/proprietary/wifi/bin/BCM4330B1_002.001.003.0221.0265.hcd:system/bin/BCM4330B1_002.001.003.0221.0265.hcd \
+    vendor/samsung/galaxys2/proprietary/wifi/vendor/firmware/bcm4330_aps.bin:system/vendor/firmware/bcm4330_aps.bin \
+    vendor/samsung/galaxys2/proprietary/wifi/vendor/firmware/bcm4330_mfg.bin:system/vendor/firmware/bcm4330_mfg.bin \
+    vendor/samsung/galaxys2/proprietary/wifi/vendor/firmware/bcm4330_sta.bin:system/vendor/firmware/bcm4330_sta.bin
 
