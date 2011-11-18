@@ -27,5 +27,4 @@ PRODUCT_COPY_FILES := \
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS := vendor/samsung/galaxys2/overlay
 
-# Vendor blobs
 $(call inherit-product, vendor/samsung/galaxys2/galaxys2-vendor-blobs.mk)
