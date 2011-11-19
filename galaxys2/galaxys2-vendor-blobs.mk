@@ -83,7 +83,24 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2/proprietary/audio/lib/libSR_AudioIn.so:system/lib/libSR_AudioIn.so \
     vendor/samsung/galaxys2/proprietary/audio/lib/libyamahasrc.so:system/lib/libyamahasrc.so \
     vendor/samsung/galaxys2/proprietary/audio/lib/hw/acoustics.default.so:system/lib/hw/acoustics.default.so \
-    vendor/samsung/galaxys2/proprietary/audio/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so
+    vendor/samsung/galaxys2/proprietary/audio/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
+    vendor/samsung/galaxys2/proprietary/audio/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
+    vendor/samsung/galaxys2/proprietary/audio/usr/share/alsa/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
+    vendor/samsung/galaxys2/proprietary/audio/usr/share/alsa/pcm/center_lfe.conf:system/usr/share/alsa/pcm/center_lfe.conf \
+    vendor/samsung/galaxys2/proprietary/audio/usr/share/alsa/pcm/default.conf:system/usr/share/alsa/pcm/default.conf \
+    vendor/samsung/galaxys2/proprietary/audio/usr/share/alsa/pcm/dmix.conf:system/usr/share/alsa/pcm/dmix.conf \
+    vendor/samsung/galaxys2/proprietary/audio/usr/share/alsa/pcm/dpl.conf:system/usr/share/alsa/pcm/dpl.conf \
+    vendor/samsung/galaxys2/proprietary/audio/usr/share/alsa/pcm/dsnoop.conf:system/usr/share/alsa/pcm/dsnoop.conf \
+    vendor/samsung/galaxys2/proprietary/audio/usr/share/alsa/pcm/front.conf:system/usr/share/alsa/pcm/front.conf \
+    vendor/samsung/galaxys2/proprietary/audio/usr/share/alsa/pcm/iec958.conf:system/usr/share/alsa/pcm/iec958.conf \
+    vendor/samsung/galaxys2/proprietary/audio/usr/share/alsa/pcm/modem.conf:system/usr/share/alsa/pcm/modem.conf \
+    vendor/samsung/galaxys2/proprietary/audio/usr/share/alsa/pcm/rear.conf:system/usr/share/alsa/pcm/rear.conf \
+    vendor/samsung/galaxys2/proprietary/audio/usr/share/alsa/pcm/side.conf:system/usr/share/alsa/pcm/side.conf \
+    vendor/samsung/galaxys2/proprietary/audio/usr/share/alsa/pcm/surround40.conf:system/usr/share/alsa/pcm/surround40.conf \
+    vendor/samsung/galaxys2/proprietary/audio/usr/share/alsa/pcm/surround41.conf:system/usr/share/alsa/pcm/surround41.conf \
+    vendor/samsung/galaxys2/proprietary/audio/usr/share/alsa/pcm/surround50.conf:system/usr/share/alsa/pcm/surround50.conf \
+    vendor/samsung/galaxys2/proprietary/audio/usr/share/alsa/pcm/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
+    vendor/samsung/galaxys2/proprietary/audio/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf
 
 # SENSORS
 PRODUCT_COPY_FILES += \
