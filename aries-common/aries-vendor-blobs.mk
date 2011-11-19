@@ -63,8 +63,3 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/aries-common/proprietary/battery_charging_95.qmg:system/media/battery_charging_95.qmg \
     vendor/samsung/aries-common/proprietary/chargingwarning.qmg:system/media/chargingwarning.qmg \
     vendor/samsung/aries-common/proprietary/Disconnected.qmg:system/media/Disconnected.qmg
-
-# touch screen
-PRODUCT_COPY_FILES += \
-    vendor/samsung/aries-common/proprietary/mxt224_ts_input.idc:system/usr/idc/mxt224_ts_input.idc
-
