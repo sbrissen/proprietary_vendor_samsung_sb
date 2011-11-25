@@ -27,20 +27,20 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2-common/proprietary/graphics/lib/hw/gralloc.smdkv310.so:system/lib/hw/gralloc.smdkv310.so
 
 # HWCOMPOSER - needs tvout
-#PRODUCT_COPY_FILES += \
-#    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/hw/hwcomposer.smdkv310.so:system/lib/hw/hwcomposer.smdkv310.so \
-#    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libfimg.so:system/lib/libfimg.so \
-#    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libtvout.so:system/lib/libtvout.so \
-#    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libtvoutcec.so:system/lib/libtvoutcec.so \
-#    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libtvoutddc.so:system/lib/libtvoutddc.so \
-#    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libtvoutedid.so:system/lib/libtvoutedid.so \
-#    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/lib_tvoutengine.so:system/lib/lib_tvoutengine.so \
-#    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libtvoutfimc.so:system/lib/libtvoutfimc.so \
-#    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libtvoutfimg.so:system/lib/libtvoutfimg.so \
-#    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libtvouthdmi.so:system/lib/libtvouthdmi.so \
-#    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libtvout_jni.so:system/lib/libtvout_jni.so \
-#    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libtvoutservice.so:system/lib/libtvoutservice.so \
-#    vendor/samsung/galaxys2-common/proprietary/hwcomposer/bin/tvoutserver:system/bin/tvoutserver
+PRODUCT_COPY_FILES += \
+    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/hw/hwcomposer.smdkv310.so:system/lib/hw/hwcomposer.smdkv310.so \
+    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libfimg.so:system/lib/libfimg.so \
+    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libtvout.so:system/lib/libtvout.so \
+    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libtvoutcec.so:system/lib/libtvoutcec.so \
+    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libtvoutddc.so:system/lib/libtvoutddc.so \
+    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libtvoutedid.so:system/lib/libtvoutedid.so \
+    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/lib_tvoutengine.so:system/lib/lib_tvoutengine.so \
+    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libtvoutfimc.so:system/lib/libtvoutfimc.so \
+    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libtvoutfimg.so:system/lib/libtvoutfimg.so \
+    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libtvouthdmi.so:system/lib/libtvouthdmi.so \
+    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libtvout_jni.so:system/lib/libtvout_jni.so \
+    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libtvoutservice.so:system/lib/libtvoutservice.so \
+    vendor/samsung/galaxys2-common/proprietary/hwcomposer/bin/tvoutserver:system/bin/tvoutserver
 
 # SENSORS
 PRODUCT_COPY_FILES += \
