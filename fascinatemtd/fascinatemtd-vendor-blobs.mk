@@ -31,4 +31,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/fascinatemtd/proprietary/libsensor_yamaha_test.so:system/vendor/lib/libsensor_yamaha_test.so \
     vendor/samsung/fascinatemtd/proprietary/geomagneticd:system/vendor/bin/geomagneticd \
     vendor/samsung/fascinatemtd/proprietary/orientationd:system/vendor/bin/orientationd \
-    vendor/samsung/fascinatemtd/proprietary/sensors.default.so:system/lib/hw/sensors.default.so
+    vendor/samsung/fascinatemtd/proprietary/sensors.aries.so:system/lib/hw/sensors.aries.so
