@@ -59,7 +59,6 @@ PRODUCT_COPY_FILES += \
 
 # AUDIO
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxys2-common/proprietary/audio/etc/asound.conf:system/etc/asound.conf \
     vendor/samsung/galaxys2-common/proprietary/audio/etc/audio/LVVEFS_Rx_Configuration.txt:system/etc/audio/LVVEFS_Rx_Configuration.txt \
     vendor/samsung/galaxys2-common/proprietary/audio/etc/audio/LVVEFS_Tx_Configuration.txt:system/etc/audio/LVVEFS_Tx_Configuration.txt \
     vendor/samsung/galaxys2-common/proprietary/audio/etc/audio/Rx_ControlParams_EARPIECE_WIDEBAND.txt:system/etc/audio/Rx_ControlParams_EARPIECE_WIDEBAND.txt \
