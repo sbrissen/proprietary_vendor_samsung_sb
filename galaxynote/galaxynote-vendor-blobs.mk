@@ -12,6 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Prebuilt libraries that are needed to build open-source libraries
+PRODUCT_COPY_FILES := \
+    vendor/samsung/galaxynote/proprietary/ril/lib/libril.so:obj/lib/libril.so \
+    vendor/samsung/galaxynote/proprietary/ril/lib/libsecril-client.so:obj/lib/libsecril-client.so \
+    vendor/samsung/galaxynote/proprietary/audio/lib/libaudio.so:obj/lib/libaudio.so \
+    vendor/samsung/galaxynote/proprietary/audio/lib/libmediayamahaservice.so:obj/lib/libmediayamahaservice.so \
+    vendor/samsung/galaxynote/proprietary/audio/lib/libaudiopolicy.so:obj/lib/libaudiopolicy.so
+
 # EGL
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxynote/proprietary/graphics/lib/libEGL.so:system/lib/libEGL.so \
@@ -56,14 +64,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxynote/proprietary/wifi/vendor/firmware/bcm4330_aps.bin:system/vendor/firmware/bcm4330_aps.bin \
     vendor/samsung/galaxynote/proprietary/wifi/vendor/firmware/bcm4330_mfg.bin:system/vendor/firmware/bcm4330_mfg.bin \
     vendor/samsung/galaxynote/proprietary/wifi/vendor/firmware/bcm4330_sta.bin:system/vendor/firmware/bcm4330_sta.bin
-	
-# Prebuilt libraries that are needed to build open-source libraries
-PRODUCT_COPY_FILES := \
-    vendor/samsung/galaxynote/proprietary/ril/lib/libril.so:obj/lib/libril.so \
-    vendor/samsung/galaxynote/proprietary/ril/lib/libsecril-client.so:obj/lib/libsecril-client.so \
-    vendor/samsung/galaxynote/proprietary/audio/lib/libaudio.so:obj/lib/libaudio.so \
-    vendor/samsung/galaxynote/proprietary/audio/lib/libmediayamahaservice.so:obj/lib/libmediayamahaservice.so \
-    vendor/samsung/galaxynote/proprietary/audio/lib/libaudiopolicy.so:obj/lib/libaudiopolicy.so
 
 # RIL
 PRODUCT_COPY_FILES += \
