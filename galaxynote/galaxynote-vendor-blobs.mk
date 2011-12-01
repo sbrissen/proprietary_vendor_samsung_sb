@@ -56,7 +56,8 @@ PRODUCT_COPY_FILES += \
 	
 # GPS
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxynote/proprietary/gps/lib/hw/gps.GT-N7000.so:system/lib/hw/vendor-gps.smdkv310.so
+    vendor/samsung/galaxynote/proprietary/gps/lib/hw/gps.GT-N7000.so:system/lib/hw/vendor-gps.smdkv310.so \
+	vendor/samsung/galaxynote/proprietary/gps/bin/gpsd:system/bin/gpsd
 	
 # WIFI
 PRODUCT_COPY_FILES += \
