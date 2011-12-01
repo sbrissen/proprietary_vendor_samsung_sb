@@ -115,31 +115,31 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2-common/proprietary/audio/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf
 
 # OMX
-PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxys2-common/proprietary/omx/etc/secomxregistry:system/etc/secomxregistry \
-    vendor/samsung/galaxys2-common/proprietary/omx/etc/somxreg.conf:system/etc/somxreg.conf \
-    vendor/samsung/galaxys2-common/proprietary/omx/lib/libOMX.SEC.AVC.Decoder.so:system/lib/libOMX.SEC.AVC.Decoder.so \
-    vendor/samsung/galaxys2-common/proprietary/omx/lib/libOMX.SEC.AVC.Encoder.so:system/lib/libOMX.SEC.AVC.Encoder.so \
-    vendor/samsung/galaxys2-common/proprietary/omx/lib/libOMX.SEC.M4V.Decoder.so:system/lib/libOMX.SEC.M4V.Decoder.so \
-    vendor/samsung/galaxys2-common/proprietary/omx/lib/libOMX.SEC.M4V.Encoder.so:system/lib/libOMX.SEC.M4V.Encoder.so \
-    vendor/samsung/galaxys2-common/proprietary/omx/lib/libSEC_OMX_Core.so:system/lib/libSEC_OMX_Core.so \
-    vendor/samsung/galaxys2-common/proprietary/omx/lib/libSEC_Resourcemanager.so:system/lib/libSEC_Resourcemanager.so \
-    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomx263d.so:system/lib/libsomx263d.so \
-    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomx264d.so:system/lib/libsomx264d.so \
-    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxaacd.so:system/lib/libsomxaacd.so \
-    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxac3d.so:system/lib/libsomxac3d.so \
-    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxamrd.so:system/lib/libsomxamrd.so \
-    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxcmn.so:system/lib/libsomxcmn.so \
-    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxcore.so:system/lib/libsomxcore.so \
-    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxflacd.so:system/lib/libsomxflacd.so \
-    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxmp3d.so:system/lib/libsomxmp3d.so \
-    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxmp4vd.so:system/lib/libsomxmp4vd.so \
-    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxmp43d.so:system/lib/libsomxmp43d.so \
-    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxsr263d.so:system/lib/libsomxsr263d.so \
-    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxvc1d.so:system/lib/libsomxvc1d.so \
-    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxvenc.so:system/lib/libsomxvenc.so \
-    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxwmad.so:system/lib/libsomxwmad.so \
-    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxwmv7d.so:system/lib/libsomxwmv7d.so \
-    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so \
-    vendor/samsung/galaxys2-common/proprietary/omx/lib/libstagefright_omx.so:system/lib/libstagefright_omx.so
+#PRODUCT_COPY_FILES += \
+#    vendor/samsung/galaxys2-common/proprietary/omx/etc/secomxregistry:system/etc/secomxregistry \
+#    vendor/samsung/galaxys2-common/proprietary/omx/etc/somxreg.conf:system/etc/somxreg.conf \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libOMX.SEC.AVC.Decoder.so:system/lib/libOMX.SEC.AVC.Decoder.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libOMX.SEC.AVC.Encoder.so:system/lib/libOMX.SEC.AVC.Encoder.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libOMX.SEC.M4V.Decoder.so:system/lib/libOMX.SEC.M4V.Decoder.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libOMX.SEC.M4V.Encoder.so:system/lib/libOMX.SEC.M4V.Encoder.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libSEC_OMX_Core.so:system/lib/libSEC_OMX_Core.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libSEC_Resourcemanager.so:system/lib/libSEC_Resourcemanager.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomx263d.so:system/lib/libsomx263d.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomx264d.so:system/lib/libsomx264d.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxaacd.so:system/lib/libsomxaacd.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxac3d.so:system/lib/libsomxac3d.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxamrd.so:system/lib/libsomxamrd.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxcmn.so:system/lib/libsomxcmn.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxcore.so:system/lib/libsomxcore.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxflacd.so:system/lib/libsomxflacd.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxmp3d.so:system/lib/libsomxmp3d.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxmp4vd.so:system/lib/libsomxmp4vd.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxmp43d.so:system/lib/libsomxmp43d.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxsr263d.so:system/lib/libsomxsr263d.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxvc1d.so:system/lib/libsomxvc1d.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxvenc.so:system/lib/libsomxvenc.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxwmad.so:system/lib/libsomxwmad.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxwmv7d.so:system/lib/libsomxwmv7d.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libstagefright_omx.so:system/lib/libstagefright_omx.so
 
