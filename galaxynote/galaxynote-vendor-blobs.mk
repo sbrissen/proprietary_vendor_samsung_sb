@@ -64,8 +64,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxynote/proprietary/wifi/bin/BCM4330B1_002.001.003.0485.0501.hcd:system/bin/BCM4330B1_002.001.003.0485.0501.hcd \
     vendor/samsung/galaxynote/proprietary/wifi/vendor/firmware/bcm4330_aps.bin:system/vendor/firmware/bcm4330_aps.bin \
     vendor/samsung/galaxynote/proprietary/wifi/vendor/firmware/bcm4330_mfg.bin:system/vendor/firmware/bcm4330_mfg.bin \
-    vendor/samsung/galaxynote/proprietary/wifi/vendor/firmware/bcm4330_sta.bin:system/vendor/firmware/bcm4330_sta.bin
-
+    vendor/samsung/galaxynote/proprietary/wifi/vendor/firmware/bcm4330_sta.bin:system/vendor/firmware/bcm4330_sta.bin \
+    vendor/samsung/galaxynote/proprietary/wifi/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
+    vendor/samsung/galaxynote/proprietary/wifi/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
+    vendor/samsung/galaxynote/proprietary/wifi/vendor/firmware/fw_bcmdhd_p2p.bin:system/vendor/firmware/fw_bcmdhd_p2p.bin
+	
 # RIL
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxynote/proprietary/ril/bin/rild:system/bin/rild \
