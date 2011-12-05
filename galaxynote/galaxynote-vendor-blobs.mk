@@ -62,12 +62,6 @@ PRODUCT_COPY_FILES += \
 # WIFI
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxynote/proprietary/wifi/bin/BCM4330B1_002.001.003.0485.0501.hcd:system/bin/BCM4330B1_002.001.003.0485.0501.hcd \
-    vendor/samsung/galaxynote/proprietary/wifi/vendor/firmware/bcm4330_aps.bin:system/vendor/firmware/bcm4330_aps.bin \
-    vendor/samsung/galaxynote/proprietary/wifi/vendor/firmware/bcm4330_mfg.bin:system/vendor/firmware/bcm4330_mfg.bin \
-    vendor/samsung/galaxynote/proprietary/wifi/vendor/firmware/bcm4330_sta.bin:system/vendor/firmware/bcm4330_sta.bin \
-    vendor/samsung/galaxynote/proprietary/wifi/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
-    vendor/samsung/galaxynote/proprietary/wifi/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
-    vendor/samsung/galaxynote/proprietary/wifi/vendor/firmware/fw_bcmdhd_p2p.bin:system/vendor/firmware/fw_bcmdhd_p2p.bin
 	
 # RIL
 PRODUCT_COPY_FILES += \
@@ -76,6 +70,36 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxynote/proprietary/ril/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/galaxynote/proprietary/ril/lib/libsecril-client.so:system/lib/libsecril-client.so
 
+# low power mode
+PRODUCT_COPY_FILES += \
+    vendor/samsung/galaxynote/proprietary/lpm/bin/charging_mode:system/bin/charging_mode \
+    vendor/samsung/galaxynote/proprietary/lpm/bin/playlpm:system/bin/playlpm \
+    vendor/samsung/galaxynote/proprietary/lpm/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
+    vendor/samsung/galaxynote/proprietary/lpm/media/battery_charging_10.qmg:system/media/battery_charging_10.qmg \
+    vendor/samsung/galaxynote/proprietary/lpm/media/battery_charging_100.qmg:system/media/battery_charging_100.qmg \
+    vendor/samsung/galaxynote/proprietary/lpm/media/battery_charging_15.qmg:system/media/battery_charging_15.qmg \
+    vendor/samsung/galaxynote/proprietary/lpm/media/battery_charging_20.qmg:system/media/battery_charging_20.qmg \
+    vendor/samsung/galaxynote/proprietary/lpm/media/battery_charging_25.qmg:system/media/battery_charging_25.qmg \
+    vendor/samsung/galaxynote/proprietary/lpm/media/battery_charging_30.qmg:system/media/battery_charging_30.qmg \
+    vendor/samsung/galaxynote/proprietary/lpm/media/battery_charging_35.qmg:system/media/battery_charging_35.qmg \
+    vendor/samsung/galaxynote/proprietary/lpm/media/battery_charging_40.qmg:system/media/battery_charging_40.qmg \
+    vendor/samsung/galaxynote/proprietary/lpm/media/battery_charging_45.qmg:system/media/battery_charging_45.qmg \
+    vendor/samsung/galaxynote/proprietary/lpm/media/battery_charging_5.qmg:system/media/battery_charging_5.qmg \
+    vendor/samsung/galaxynote/proprietary/lpm/media/battery_charging_50.qmg:system/media/battery_charging_50.qmg \
+    vendor/samsung/galaxynote/proprietary/lpm/media/battery_charging_55.qmg:system/media/battery_charging_55.qmg \
+    vendor/samsung/galaxynote/proprietary/lpm/media/battery_charging_60.qmg:system/media/battery_charging_60.qmg \
+    vendor/samsung/galaxynote/proprietary/lpm/media/battery_charging_65.qmg:system/media/battery_charging_65.qmg \
+    vendor/samsung/galaxynote/proprietary/lpm/media/battery_charging_70.qmg:system/media/battery_charging_70.qmg \
+    vendor/samsung/galaxynote/proprietary/lpm/media/battery_charging_75.qmg:system/media/battery_charging_75.qmg \
+    vendor/samsung/galaxynote/proprietary/lpm/media/battery_charging_80.qmg:system/media/battery_charging_80.qmg \
+    vendor/samsung/galaxynote/proprietary/lpm/media/battery_charging_85.qmg:system/media/battery_charging_85.qmg \
+    vendor/samsung/galaxynote/proprietary/lpm/media/battery_charging_90.qmg:system/media/battery_charging_90.qmg \
+    vendor/samsung/galaxynote/proprietary/lpm/media/battery_charging_95.qmg:system/media/battery_charging_95.qmg \
+	vendor/samsung/galaxynote/proprietary/lpm/media/battery_batteryerror.qmg:system/media/battery_batteryerror.qmg \
+	vendor/samsung/galaxynote/proprietary/lpm/media/battery_error.qmg:system/media/battery_error.qmg \
+    vendor/samsung/galaxynote/proprietary/lpm/media/chargingwarning.qmg:system/media/chargingwarning.qmg \
+    vendor/samsung/galaxynote/proprietary/lpm/media/Disconnected.qmg:system/media/Disconnected.qmg
+	
 # AUDIO
 PRODUCT_COPY_FILES += \
 	vendor/samsung/galaxynote/proprietary/audio/etc/audio/LVVEFS_Rx_Configuration.txt:system/etc/audio/LVVEFS_Rx_Configuration.txt \
