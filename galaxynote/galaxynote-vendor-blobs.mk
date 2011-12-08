@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxynote/proprietary/graphics/lib/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
     vendor/samsung/galaxynote/proprietary/graphics/lib/libGLESv2.so:system/lib/libGLESv2.so \
     vendor/samsung/galaxynote/proprietary/graphics/lib/libMali.so:system/lib/libMali.so \
-    vendor/samsung/galaxynote/proprietary/graphics/lib/libOpenSLES.so:system/lib/libOpenSLES.so \
     vendor/samsung/galaxynote/proprietary/graphics/lib/libUMP.so:system/lib/libUMP.so \
     vendor/samsung/galaxynote/proprietary/graphics/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
     vendor/samsung/galaxynote/proprietary/graphics/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
