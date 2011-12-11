@@ -2,7 +2,7 @@
 4
 1
 
-0
+1
 4
 /system/etc/audio/Tx_ControlParams_EARPIECE_WIDEBAND.txt
 /system/etc/audio/Tx_ControlParams_SPEAKER_WIDEBAND.txt
@@ -25,7 +25,7 @@
 0
 0
 
-1
+0
 0
 /data/LVVEFS_Tx_Status.bin
 
@@ -33,7 +33,7 @@
 0
 0
 
-1
+0
 2048
 /data/Tx_in_mic.pcm
 
@@ -41,7 +41,7 @@
 2048
 /data/WhiteNoise_delayed.pcm
 
-1
+0 
 2048
 /data/Tx_in_ref.pcm
 
@@ -49,10 +49,10 @@
 2048
 /data/WhiteNoise.pcm
 
-0
+0			
 2048
 /data/Tx_out.pcm
 
 0
 2048
-/data/Fs44100_FemaleSpeech_St.pcm
+/data/WN30s441kStF.pcm

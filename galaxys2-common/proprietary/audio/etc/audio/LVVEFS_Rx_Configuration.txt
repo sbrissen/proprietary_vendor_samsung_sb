@@ -17,17 +17,17 @@
 0
 0
 
-1
+0
 0
 /data/LVVEFS_Rx_Status.bin
 
 0
 2048
-/data/Fs44100_FemaleSpeech_St_12.pcm
+/data/Rx_in.pcm
 
-1
+0
 2048
-/data/Fs44100_WhiteNoise_St.pcm
+/data/Fs44100_WhiteNoiseBursts_St.pcm
 
 0
 2048
@@ -35,4 +35,4 @@
 
 0
 2048
-/data/Fs44100_WhiteNoise_St.pcm
+/data/WN30s441kStF.pcm
