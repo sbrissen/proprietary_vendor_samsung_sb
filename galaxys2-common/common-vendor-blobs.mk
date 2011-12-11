@@ -18,40 +18,68 @@ PRODUCT_COPY_FILES += \
 
 # EGL
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxys2-common/proprietary/graphics/lib/libEGL.so:system/lib/libEGL.so \
-    vendor/samsung/galaxys2-common/proprietary/graphics/lib/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
-    vendor/samsung/galaxys2-common/proprietary/graphics/lib/libGLESv2.so:system/lib/libGLESv2.so \
-    vendor/samsung/galaxys2-common/proprietary/graphics/lib/libMali.so:system/lib/libMali.so \
-    vendor/samsung/galaxys2-common/proprietary/graphics/lib/libUMP.so:system/lib/libUMP.so \
+    vendor/samsung/galaxys2-common/proprietary/graphics/lib/hw/gralloc.s5pc210.so:system/lib/hw/gralloc.s5pc210.so \
     vendor/samsung/galaxys2-common/proprietary/graphics/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
     vendor/samsung/galaxys2-common/proprietary/graphics/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/samsung/galaxys2-common/proprietary/graphics/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
     vendor/samsung/galaxys2-common/proprietary/graphics/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
-    vendor/samsung/galaxys2-common/proprietary/graphics/lib/hw/gralloc.smdkv310.so:system/lib/hw/gralloc.smdkv310.so
+    vendor/samsung/galaxys2-common/proprietary/graphics/lib/libEGL.so:system/lib/libEGL.so \
+    vendor/samsung/galaxys2-common/proprietary/graphics/lib/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
+    vendor/samsung/galaxys2-common/proprietary/graphics/lib/libGLESv2.so:system/lib/libGLESv2.so \
+    vendor/samsung/galaxys2-common/proprietary/graphics/lib/libGLESv2_dbg.so:system/lib/libGLESv2_dbg.so \
+    vendor/samsung/galaxys2-common/proprietary/graphics/lib/libMali.so:system/lib/libMali.so \
+    vendor/samsung/galaxys2-common/proprietary/graphics/lib/libUMP.so:system/lib/libUMP.so
 
-# HWCOMPOSER - needs tvout
+
+# HWCOMPOSER
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/hw/hwcomposer.smdkv310.so:system/lib/hw/hwcomposer.smdkv310.so \
+    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/hw/hwcomposer.s5pc210.so:system/lib/hw/hwcomposer.s5pc210.so \
+    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libfimc.so:system/lib/libfimc.so \
     vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libfimg.so:system/lib/libfimg.so \
-    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libtvout.so:system/lib/libtvout.so \
-    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libtvoutcec.so:system/lib/libtvoutcec.so \
-    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libtvoutddc.so:system/lib/libtvoutddc.so \
-    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libtvoutedid.so:system/lib/libtvoutedid.so \
-    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/lib_tvoutengine.so:system/lib/lib_tvoutengine.so \
-    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libtvoutfimc.so:system/lib/libtvoutfimc.so \
-    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libtvoutfimg.so:system/lib/libtvoutfimg.so \
-    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libtvouthdmi.so:system/lib/libtvouthdmi.so \
+    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libhdmi.so:system/lib/libhdmi.so \
+    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libhdmiclient.so:system/lib/libhdmiclient.so \
+    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libTVOut.so:system/lib/libTVOut.so \
     vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libtvout_jni.so:system/lib/libtvout_jni.so \
-    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libtvoutservice.so:system/lib/libtvoutservice.so \
-    vendor/samsung/galaxys2-common/proprietary/hwcomposer/bin/tvoutserver:system/bin/tvoutserver
+    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libtvoutinterface.so:system/lib/libtvoutinterface.so \
+    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libtvoutservice.so:system/lib/libtvoutservice.so
+
+# CAMERA
+PRODUCT_COPY_FILES += \
+    vendor/samsung/galaxys2-common/proprietary/camera/lib/hw/camera.s5pc210.so:system/lib/hw/camera.s5pc210.so \
+    vendor/samsung/galaxys2-common/proprietary/camera/lib/libcamera_client.so:system/lib/libcamera_client.so \
+    vendor/samsung/galaxys2-common/proprietary/camera/lib/libcaps.so:system/lib/libcaps.so \
+    vendor/samsung/galaxys2-common/proprietary/camera/lib/libs5pjpeg.so:system/lib/libs5pjpeg.so
+
+# OMX
+#PRODUCT_COPY_FILES += \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomx263d.so:system/lib/libsomx263d.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomx264d.so:system/lib/libsomx264d.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxaacd.so:system/lib/libsomxaacd.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxac3d.so:system/lib/libsomxac3d.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxamrd.so:system/lib/libsomxamrd.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxcmn.so:system/lib/libsomxcmn.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxcore.so:system/lib/libsomxcore.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxflacd.so:system/lib/libsomxflacd.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxmp3d.so:system/lib/libsomxmp3d.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxmp4vd.so:system/lib/libsomxmp4vd.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxmp43d.so:system/lib/libsomxmp43d.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxsr263d.so:system/lib/libsomxsr263d.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxvc1d.so:system/lib/libsomxvc1d.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxvenc.so:system/lib/libsomxvenc.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxvp8d.so:system/lib/libsomxvp8d.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxwmad.so:system/lib/libsomxwmad.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxwmv7d.so:system/lib/libsomxwmv7d.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so \
+#    vendor/samsung/galaxys2-common/proprietary/omx/lib/libstagefright_omx.so:system/lib/libstagefright_omx.so
 
 # SENSORS
 PRODUCT_COPY_FILES += \
+    vendor/samsung/galaxys2-common/proprietary/sensors/lib/hw/lights.s5pc210.so:system/lib/hw/lights.s5pc210.so \
     vendor/samsung/galaxys2-common/proprietary/sensors/lib/libakm.so:system/lib/libakm.so
 
 # GPS
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxys2-common/proprietary/gps/lib/hw/gps.GT-I9100.so:system/lib/hw/vendor-gps.smdkv310.so
+    vendor/samsung/galaxys2-common/proprietary/gps/lib/hw/gps.s5pc210.so:system/lib/hw/gps.s5pc210.so
 
 # WIFI
 PRODUCT_COPY_FILES += \
@@ -62,8 +90,8 @@ PRODUCT_COPY_FILES += \
 
 # AUDIO
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxys2-common/proprietary/audio/lib/hw/audio.primary.smdkv310.so:system/lib/hw/audio.primary.smdkv310.so \
-    vendor/samsung/galaxys2-common/proprietary/audio/lib/hw/audio_policy.smdkv310.so:system/lib/hw/audio_policy.smdkv310.so \
+    vendor/samsung/galaxys2-common/proprietary/audio/lib/hw/audio.primary.s5pc210.so:system/lib/hw/audio.primary.s5pc210.so \
+    vendor/samsung/galaxys2-common/proprietary/audio/lib/hw/audio_policy.s5pc210.so:system/lib/hw/audio_policy.s5pc210.so \
     vendor/samsung/galaxys2-common/proprietary/audio/lib/lib_Samsung_Acoustic_Module_Llite.so:system/lib/lib_Samsung_Acoustic_Module_Llite.so \
     vendor/samsung/galaxys2-common/proprietary/audio/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
     vendor/samsung/galaxys2-common/proprietary/audio/lib/lib_Samsung_Sound_Booster.so:system/lib/lib_Samsung_Sound_Booster.so \
