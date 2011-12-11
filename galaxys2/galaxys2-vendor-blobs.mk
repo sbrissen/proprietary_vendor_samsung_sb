@@ -15,10 +15,7 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
     vendor/samsung/galaxys2/proprietary/ril/lib/libril.so:obj/lib/libril.so \
-    vendor/samsung/galaxys2/proprietary/ril/lib/libsecril-client.so:obj/lib/libsecril-client.so \
-    vendor/samsung/galaxys2/proprietary/audio/lib/libaudio.so:obj/lib/libaudio.so \
-    vendor/samsung/galaxys2/proprietary/audio/lib/libmediayamahaservice.so:obj/lib/libmediayamahaservice.so \
-    vendor/samsung/galaxys2/proprietary/audio/lib/libaudiopolicy.so:obj/lib/libaudiopolicy.so
+    vendor/samsung/galaxys2/proprietary/ril/lib/libsecril-client.so:obj/lib/libsecril-client.so
 
 # RIL
 PRODUCT_COPY_FILES += \
