@@ -69,6 +69,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2-common/proprietary/audio/lib/libmediayamaha_jni.so:system/lib/libmediayamaha_jni.so \
     vendor/samsung/galaxys2-common/proprietary/audio/lib/libmediayamaha_tuning_jni.so:system/lib/libmediayamaha_tuning_jni.so \
     vendor/samsung/galaxys2-common/proprietary/audio/lib/libmediayamahaservice.so:system/lib/libmediayamahaservice.so \
+    vendor/samsung/galaxys2-common/proprietary/audio/lib/libsamsungAcousticeq.so:system/lib/libsamsungAcousticeq.so \
+    vendor/samsung/galaxys2-common/proprietary/audio/lib/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so \
     vendor/samsung/galaxys2-common/proprietary/audio/lib/libyamahasrc.so:system/lib/libyamahasrc.so \
     vendor/samsung/galaxys2-common/proprietary/audio/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
     vendor/samsung/galaxys2-common/proprietary/audio/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
