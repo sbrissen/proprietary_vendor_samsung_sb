@@ -12,6 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Prebuilt libraries that are needed to build open-source libraries
+PRODUCT_COPY_FILES += \
+    vendor/samsung/galaxys2-common/proprietary/audio/lib/libmediayamahaservice.so:obj/lib/libmediayamahaservice.so 
+
 # EGL
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2-common/proprietary/graphics/lib/libEGL.so:system/lib/libEGL.so \
