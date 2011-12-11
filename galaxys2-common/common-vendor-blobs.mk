@@ -95,6 +95,8 @@ PRODUCT_COPY_FILES += \
 
 # AUDIO
 PRODUCT_COPY_FILES += \
+    vendor/samsung/galaxys2-common/proprietary/audio/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
+    vendor/samsung/galaxys2-common/proprietary/audio/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
     vendor/samsung/galaxys2-common/proprietary/audio/lib/hw/audio.primary.s5pc210.so:system/lib/hw/audio.primary.s5pc210.so \
     vendor/samsung/galaxys2-common/proprietary/audio/lib/hw/audio_policy.s5pc210.so:system/lib/hw/audio_policy.s5pc210.so \
     vendor/samsung/galaxys2-common/proprietary/audio/lib/lib_Samsung_Acoustic_Module_Llite.so:system/lib/lib_Samsung_Acoustic_Module_Llite.so \
