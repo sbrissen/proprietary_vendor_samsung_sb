@@ -87,7 +87,7 @@ PRODUCT_COPY_FILES += \
 # GPS
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxynote/proprietary/gps/lib/hw/gps.s5pc210.so:system/lib/hw/gps.s5pc210.so
-	vendor/samsung/galaxynote/proprietary/gps/bin/gpsd:system/bin/gpsd
+#	vendor/samsung/galaxynote/proprietary/gps/bin/gpsd:system/bin/gpsd
 	
 # WIFI
 PRODUCT_COPY_FILES += \
