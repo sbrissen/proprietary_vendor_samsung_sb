@@ -1,10 +1,9 @@
-34
-7
+30
+4
 0
 
 1
 4
-LVVEFS_ABSOLUTE_PATH
 /system/etc/audio/Rx_ControlParams_EARPIECE_WIDEBAND.txt
 /system/etc/audio/Rx_ControlParams_SPEAKER_WIDEBAND.txt
 /system/etc/audio/Rx_ControlParams_WIRED_HEADPHONE_WIDEBAND.txt
@@ -23,21 +22,17 @@ LVVEFS_ABSOLUTE_PATH
 /data/LVVEFS_Rx_Status.bin
 
 0
-120000
+2048
 /data/Rx_in.pcm
 
 0
-120000
-/data/WN30s44.1kWBNBSt.pcm
+2048
+/data/Fs44100_WhiteNoiseBursts_St.pcm
 
 0
-120000
+2048
 /data/Rx_out.pcm
 
 0
-120000
-/data/Fs44100_WhiteNoise_St.pcm
-
-0
-120000
-/data/Fs44100_WhiteNoiseBursts_St.pcm
+2048
+/data/WN30s441kStF.pcm
