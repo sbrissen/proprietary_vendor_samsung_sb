@@ -79,6 +79,8 @@ PRODUCT_COPY_FILES += \
 # VOLD
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2-common/proprietary/vold/bin/vold:system/bin/vold \
+    vendor/samsung/galaxys2-common/proprietary/vold/lib/libdirencryption.so:system/lib/libdirencryption.so \
+    vendor/samsung/galaxys2-common/proprietary/vold/lib/libkeyutils.so:system/lib/libkeyutils.so \
     vendor/samsung/galaxys2-common/proprietary/vold/lib/libsec_devenc.so:system/lib/libsec_devenc.so \
     vendor/samsung/galaxys2-common/proprietary/vold/lib/libsec_ecryptfs.so:system/lib/libsec_ecryptfs.so \
     vendor/samsung/galaxys2-common/proprietary/vold/lib/libsec_km.so:system/lib/libsec_km.so \
