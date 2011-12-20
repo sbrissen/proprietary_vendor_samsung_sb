@@ -88,7 +88,6 @@ PRODUCT_COPY_FILES += \
 
 # SENSORS
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxys2-common/proprietary/sensors/lib/hw/lights.s5pc210.so:system/lib/hw/lights.s5pc210.so \
     vendor/samsung/galaxys2-common/proprietary/sensors/lib/libakm.so:system/lib/libakm.so
 
 # GPS
