@@ -30,11 +30,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxynote/proprietary/graphics/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/samsung/galaxynote/proprietary/graphics/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
     vendor/samsung/galaxynote/proprietary/graphics/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
-    vendor/samsung/galaxynote/proprietary/graphics/lib/hw/gralloc.s5pc210.so:system/lib/hw/gralloc.s5pc210.so
+    vendor/samsung/galaxynote/proprietary/graphics/lib/hw/gralloc.s5pc210.so:system/lib/hw/gralloc.smdk4210.so
 
 # HWCOMPOSER - needs tvout
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxynote/proprietary/hwcomposer/lib/hw/hwcomposer.s5pc210.so:system/lib/hw/hwcomposer.s5pc210.so \
+    vendor/samsung/galaxynote/proprietary/hwcomposer/lib/hw/hwcomposer.s5pc210.so:system/lib/hw/hwcomposer.smdk4210.so \
     vendor/samsung/galaxynote/proprietary/hwcomposer/bin/bintvoutservice:system/bin/bintvoutservice \
     vendor/samsung/galaxynote/proprietary/hwcomposer/lib/libcec.so:system/lib/libcec.so \
     vendor/samsung/galaxynote/proprietary/hwcomposer/lib/libddc.so:system/lib/libddc.so \
@@ -50,7 +50,7 @@ PRODUCT_COPY_FILES += \
 	
 # CAMERA
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxynote/proprietary/camera/lib/hw/camera.s5pc210.so:system/lib/hw/camera.s5pc210.so \
+    vendor/samsung/galaxynote/proprietary/camera/lib/hw/camera.s5pc210.so:system/lib/hw/camera.smdk4210.so \
     vendor/samsung/galaxynote/proprietary/camera/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/samsung/galaxynote/proprietary/camera/lib/libcaps.so:system/lib/libcaps.so \
     vendor/samsung/galaxynote/proprietary/camera/lib/libs5pjpeg.so:system/lib/libs5pjpeg.so \
@@ -81,12 +81,12 @@ PRODUCT_COPY_FILES += \
 	
 # SENSORS
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxynote/proprietary/sensors/lib/hw/lights.s5pc210.so:system/lib/hw/lights.s5pc210.so \
+    vendor/samsung/galaxynote/proprietary/sensors/lib/hw/lights.s5pc210.so:system/lib/hw/lights.smdk4210.so \
     vendor/samsung/galaxynote/proprietary/sensors/lib/libakm.so:system/lib/libakm.so
 	
 # GPS
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxynote/proprietary/gps/lib/hw/gps.s5pc210.so:system/lib/hw/gps.s5pc210.so
+    vendor/samsung/galaxynote/proprietary/gps/lib/hw/gps.s5pc210.so:system/lib/hw/gps.smdk4210.so
 #	vendor/samsung/galaxynote/proprietary/gps/bin/gpsd:system/bin/gpsd
 	
 # WIFI
@@ -133,8 +133,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxynote/proprietary/audio/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
     vendor/samsung/galaxynote/proprietary/audio/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
-    vendor/samsung/galaxynote/proprietary/audio/lib/hw/audio.primary.s5pc210.so:system/lib/hw/audio.primary.s5pc210.so \
-    vendor/samsung/galaxynote/proprietary/audio/lib/hw/audio_policy.s5pc210.so:system/lib/hw/audio_policy.s5pc210.so \
+    vendor/samsung/galaxynote/proprietary/audio/lib/hw/audio.primary.s5pc210.so:system/lib/hw/audio.primary.smdk4210.so \
+    vendor/samsung/galaxynote/proprietary/audio/lib/hw/audio_policy.s5pc210.so:system/lib/hw/audio_policy.smdk4210.so \
     vendor/samsung/galaxynote/proprietary/audio/lib/lib_Samsung_Acoustic_Module_Llite.so:system/lib/lib_Samsung_Acoustic_Module_Llite.so \
     vendor/samsung/galaxynote/proprietary/audio/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
     vendor/samsung/galaxynote/proprietary/audio/lib/lib_Samsung_Sound_Booster.so:system/lib/lib_Samsung_Sound_Booster.so \
