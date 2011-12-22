@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2-common/proprietary/graphics/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/samsung/galaxys2-common/proprietary/graphics/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
     vendor/samsung/galaxys2-common/proprietary/graphics/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
-    vendor/samsung/galaxys2-common/proprietary/graphics/lib/libEGL.so:system/lib/libEGL.so \
     vendor/samsung/galaxys2-common/proprietary/graphics/lib/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
     vendor/samsung/galaxys2-common/proprietary/graphics/lib/libGLESv2.so:system/lib/libGLESv2.so \
     vendor/samsung/galaxys2-common/proprietary/graphics/lib/libGLESv2_dbg.so:system/lib/libGLESv2_dbg.so \
@@ -77,9 +76,18 @@ PRODUCT_COPY_FILES += \
 #    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so \
 #    vendor/samsung/galaxys2-common/proprietary/omx/lib/libstagefright_omx.so:system/lib/libstagefright_omx.so
 
+# VOLD
+PRODUCT_COPY_FILES += \
+    vendor/samsung/galaxys2-common/proprietary/vold/bin/vold:system/bin/vold \
+    vendor/samsung/galaxys2-common/proprietary/vold/lib/libdirencryption.so:system/lib/libdirencryption.so \
+    vendor/samsung/galaxys2-common/proprietary/vold/lib/libkeyutils.so:system/lib/libkeyutils.so \
+    vendor/samsung/galaxys2-common/proprietary/vold/lib/libsec_devenc.so:system/lib/libsec_devenc.so \
+    vendor/samsung/galaxys2-common/proprietary/vold/lib/libsec_ecryptfs.so:system/lib/libsec_ecryptfs.so \
+    vendor/samsung/galaxys2-common/proprietary/vold/lib/libsec_km.so:system/lib/libsec_km.so \
+    vendor/samsung/galaxys2-common/proprietary/vold/lib/libsecfips.so:system/lib/libsecfips.so
+
 # SENSORS
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxys2-common/proprietary/sensors/lib/hw/lights.s5pc210.so:system/lib/hw/lights.s5pc210.so \
     vendor/samsung/galaxys2-common/proprietary/sensors/lib/libakm.so:system/lib/libakm.so
 
 # GPS
