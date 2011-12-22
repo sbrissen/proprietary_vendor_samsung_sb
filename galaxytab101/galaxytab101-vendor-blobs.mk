@@ -49,15 +49,11 @@ PRODUCT_COPY_FILES += \
 # SENSORS
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxytab101/proprietary/sensors/lib/hw/sensors.p3.so:system/lib/hw/sensors.p3.so \
-    vendor/samsung/galaxytab101/proprietary/sensors/lib/libakm.so:system/lib/libakm.so
 	
 # NVIDIA
 PRODUCT_COPY_FILES += \
 	vendor/samsung/galaxytab101/proprietary/nvidia/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
 	vendor/samsung/galaxytab101/proprietary/nvidia/lib/libPanoraMax3.so:system/lib/libPanoraMax3.so \
-    vendor/samsung/galaxytab101/proprietary/nvidia/lib/libmllite.so:system/lib/libmllite.so \
-    vendor/samsung/galaxytab101/proprietary/nvidia/lib/libmlplatform.so:system/lib/libmlplatform.so \
-	vendor/samsung/galaxytab101/proprietary/nvidia/lib/libmpl.so:system/lib/libmpl.so \
     vendor/samsung/galaxytab101/proprietary/nvidia/lib/libcgdrv.so:system/lib/libcgdrv.so \
 	vendor/samsung/galaxytab101/proprietary/nvidia/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
     vendor/samsung/galaxytab101/proprietary/nvidia/lib/libnvodm_dtvtuner.so:system/lib/libnvodm_dtvtuner.so \
