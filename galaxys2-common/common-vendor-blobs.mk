@@ -93,7 +93,7 @@ PRODUCT_COPY_FILES += \
 
 # GPS
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxys2-common/proprietary/gps/lib/hw/gps.s5pc210.so:system/lib/hw/vendor-gps.s5pc210.so
+    vendor/samsung/galaxys2-common/proprietary/gps/lib/hw/gps.s5pc210.so:system/lib/hw/gps.s5pc210.so
 
 # WIFI
 PRODUCT_COPY_FILES += \
