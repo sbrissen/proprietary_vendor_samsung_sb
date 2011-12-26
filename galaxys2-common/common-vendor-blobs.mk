@@ -160,6 +160,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2-common/proprietary/lpm/bin/immvibed:system/bin/immvibed \
     vendor/samsung/galaxys2-common/proprietary/lpm/bin/lpmkey:system/bin/lpmkey \
     vendor/samsung/galaxys2-common/proprietary/lpm/bin/playlpm:system/bin/playlpm \
+    vendor/samsung/galaxys2-common/proprietary/lpm/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
     vendor/samsung/galaxys2-common/proprietary/lpm/media/battery_batteryerror.qmg:system/media/battery_batteryerror.qmg \
     vendor/samsung/galaxys2-common/proprietary/lpm/media/battery_charging_5.qmg:system/media/battery_charging_5.qmg \
     vendor/samsung/galaxys2-common/proprietary/lpm/media/battery_charging_10.qmg:system/media/battery_charging_10.qmg \
