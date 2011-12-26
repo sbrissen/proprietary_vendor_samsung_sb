@@ -17,8 +17,8 @@ PRODUCT_COPY_FILES := \
     vendor/samsung/galaxytab101/proprietary/ril/lib/libril.so:obj/lib/libril.so \
     vendor/samsung/galaxytab101/proprietary/ril/lib/libsecril-client.so:obj/lib/libsecril-client.so \
     vendor/samsung/galaxytab101/proprietary/audio/lib/libaudio.so:obj/lib/libaudio.so \
-	vendor/samsung/galaxytab101/proprietary/camera/lib/libcamera.so:obj/lib/libcamera.so \
-	vendor/samsung/galaxytab101/proprietary/camera/lib/libseccameraadaptor.so:obj/lib/libseccameraadaptor.so \
+    vendor/samsung/galaxytab101/proprietary/camera/lib/libcamera.so:obj/lib/libcamera.so \
+    vendor/samsung/galaxytab101/proprietary/camera/lib/libseccameraadaptor.so:obj/lib/libseccameraadaptor.so \
     vendor/samsung/galaxytab101/proprietary/nvidia/lib/libnvrm_graphics.so:obj/lib/libnvrm_graphics.so \
     vendor/samsung/galaxytab101/proprietary/nvidia/lib/libnvddk_audiofx.so:obj/lib/libnvddk_audiofx.so \
     vendor/samsung/galaxytab101/proprietary/nvidia/lib/libnvodm_query.so:obj/lib/libnvodm_query.so \
@@ -36,7 +36,6 @@ PRODUCT_COPY_FILES += \
 	
 # EGL
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxytab101/proprietary/graphics/lib/libEGL.so:system/lib/libEGL.so \
     vendor/samsung/galaxytab101/proprietary/graphics/lib/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
     vendor/samsung/galaxytab101/proprietary/graphics/lib/libGLESv2.so:system/lib/libGLESv2.so \
     vendor/samsung/galaxytab101/proprietary/graphics/lib/lib_R2VS_ARM_GA_Library_for_P4_TW_V01.so:system/lib/lib_R2VS_ARM_GA_Library_for_P4_TW_V01.so \
