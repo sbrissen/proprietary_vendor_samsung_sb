@@ -53,7 +53,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxynote/proprietary/camera/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/samsung/galaxynote/proprietary/camera/lib/libcaps.so:system/lib/libcaps.so \
     vendor/samsung/galaxynote/proprietary/camera/lib/libs5pjpeg.so:system/lib/libs5pjpeg.so \
-	vendor/samsung/galaxynote/proprietary/camera/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
+    vendor/samsung/galaxynote/proprietary/camera/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
     vendor/samsung/galaxynote/proprietary/camera/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv
 	
 # OMX
@@ -124,8 +124,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxynote/proprietary/lpm/media/battery_charging_85.qmg:system/media/battery_charging_85.qmg \
     vendor/samsung/galaxynote/proprietary/lpm/media/battery_charging_90.qmg:system/media/battery_charging_90.qmg \
     vendor/samsung/galaxynote/proprietary/lpm/media/battery_charging_95.qmg:system/media/battery_charging_95.qmg \
-	vendor/samsung/galaxynote/proprietary/lpm/media/battery_batteryerror.qmg:system/media/battery_batteryerror.qmg \
-	vendor/samsung/galaxynote/proprietary/lpm/media/battery_error.qmg:system/media/battery_error.qmg \
+    vendor/samsung/galaxynote/proprietary/lpm/media/battery_batteryerror.qmg:system/media/battery_batteryerror.qmg \
+    vendor/samsung/galaxynote/proprietary/lpm/media/battery_error.qmg:system/media/battery_error.qmg \
     vendor/samsung/galaxynote/proprietary/lpm/media/chargingwarning.qmg:system/media/chargingwarning.qmg \
     vendor/samsung/galaxynote/proprietary/lpm/media/Disconnected.qmg:system/media/Disconnected.qmg
 	
