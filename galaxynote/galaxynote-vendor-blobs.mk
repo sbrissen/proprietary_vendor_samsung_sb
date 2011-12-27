@@ -16,12 +16,11 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxynote/proprietary/hwcomposer/lib/libTVOut.so:obj/lib/libTVOut.so \
     vendor/samsung/galaxynote/proprietary/audio/lib/libmediayamahaservice.so:obj/lib/libmediayamahaservice.so \
-	vendor/samsung/galaxynote/proprietary/ril/lib/libril.so:obj/lib/libril.so \
+    vendor/samsung/galaxynote/proprietary/ril/lib/libril.so:obj/lib/libril.so \
     vendor/samsung/galaxynote/proprietary/ril/lib/libsecril-client.so:obj/lib/libsecril-client.so
 
 # EGL
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxynote/proprietary/graphics/lib/libEGL.so:system/lib/libEGL.so \
     vendor/samsung/galaxynote/proprietary/graphics/lib/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
     vendor/samsung/galaxynote/proprietary/graphics/lib/libGLESv2.so:system/lib/libGLESv2.so \
     vendor/samsung/galaxynote/proprietary/graphics/lib/libMali.so:system/lib/libMali.so \
