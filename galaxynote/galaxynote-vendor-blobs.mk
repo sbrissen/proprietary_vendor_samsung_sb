@@ -29,7 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxynote/proprietary/graphics/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/samsung/galaxynote/proprietary/graphics/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
     vendor/samsung/galaxynote/proprietary/graphics/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
-    vendor/samsung/galaxynote/proprietary/graphics/lib/hw/gralloc.s5pc210.so:system/lib/hw/gralloc.smdk4210.so
+    vendor/samsung/galaxynote/proprietary/graphics/lib/hw/gralloc.smdkv310.so:system/lib/hw/gralloc.smdk4210.so
 
 # HWCOMPOSER - needs tvout
 PRODUCT_COPY_FILES += \
