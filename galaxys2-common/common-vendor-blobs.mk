@@ -107,6 +107,9 @@ PRODUCT_COPY_FILES += \
 
 # AUDIO
 PRODUCT_COPY_FILES += \
+    vendor/samsung/galaxys2-common/proprietary/audio/bin/alsa_amixer:system/bin/alsa_amixer \
+    vendor/samsung/galaxys2-common/proprietary/audio/bin/alsa_aplay:system/bin/alsa_aplay \
+    vendor/samsung/galaxys2-common/proprietary/audio/bin/alsa_ctl:system/bin/alsa_ctl \
     vendor/samsung/galaxys2-common/proprietary/audio/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
     vendor/samsung/galaxys2-common/proprietary/audio/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
     vendor/samsung/galaxys2-common/proprietary/audio/lib/hw/audio.primary.s5pc210.so:system/lib/hw/audio.primary.s5pc210.so \
