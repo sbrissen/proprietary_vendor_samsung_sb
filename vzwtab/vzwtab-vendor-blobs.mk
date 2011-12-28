@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/vzwtab/proprietary/libril.so:system/lib/libril.so \
     vendor/samsung/vzwtab/proprietary/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/vzwtab/proprietary/libsec-ril40.so:system/lib/libsec-ril40.so \
+    vendor/samsung/vzwtab/proprietary/rild:system/bin/rild \
     vendor/samsung/vzwtab/proprietary/pppd_runner:system/bin/pppd_runner
 
 # gps
@@ -44,14 +45,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/vzwtab/proprietary/libGLESv2_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
     vendor/samsung/vzwtab/proprietary/gralloc.s5pc110.so:system/vendor/lib/hw/gralloc.s5pc110.so \
     vendor/samsung/vzwtab/proprietary/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
+    vendor/samsung/vzwtab/proprietary/libgralloc.so:system/vendor/lib/libgralloc.so \
     vendor/samsung/vzwtab/proprietary/libIMGegl.so:system/vendor/lib/libIMGegl.so \
     vendor/samsung/vzwtab/proprietary/libpvr2d.so:system/vendor/lib/libpvr2d.so \
     vendor/samsung/vzwtab/proprietary/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
     vendor/samsung/vzwtab/proprietary/libPVRScopeServices.so:system/vendor/lib/libPVRScopeServices.so \
     vendor/samsung/vzwtab/proprietary/libsrv_init.so:system/vendor/lib/libsrv_init.so \
     vendor/samsung/vzwtab/proprietary/libsrv_um.so:system/vendor/lib/libsrv_um.so \
-    vendor/samsung/vzwtab/proprietary/libusc.so:system/vendor/lib/libusc.so \
-    vendor/samsung/vzwtab/proprietary/libgralloc.so:system/vendor/lib/libgralloc.so
+    vendor/samsung/vzwtab/proprietary/libusc.so:system/vendor/lib/libusc.so
 
 # wifi
 PRODUCT_COPY_FILES += \
