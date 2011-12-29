@@ -56,8 +56,6 @@ PRODUCT_COPY_FILES += \
 
 # OMX
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxys2-common/proprietary/omx/etc/secomxregistry:system/etc/secomxregistry \
-    vendor/samsung/galaxys2-common/proprietary/omx/etc/somxreg.conf:system/etc/somxreg.conf \
     vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomx263d.so:system/lib/libsomx263d.so \
     vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomx264d.so:system/lib/libsomx264d.so \
     vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxaacd.so:system/lib/libsomxaacd.so \
