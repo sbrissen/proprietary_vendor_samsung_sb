@@ -45,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/vzwtab/proprietary/libGLESv2_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
     vendor/samsung/vzwtab/proprietary/gralloc.s5pc110.so:system/vendor/lib/hw/gralloc.s5pc110.so \
     vendor/samsung/vzwtab/proprietary/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
-    vendor/samsung/vzwtab/proprietary/libgralloc.so:system/vendor/lib/libgralloc.so \
     vendor/samsung/vzwtab/proprietary/libIMGegl.so:system/vendor/lib/libIMGegl.so \
     vendor/samsung/vzwtab/proprietary/libpvr2d.so:system/vendor/lib/libpvr2d.so \
     vendor/samsung/vzwtab/proprietary/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
