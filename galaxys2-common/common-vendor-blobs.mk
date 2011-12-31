@@ -19,7 +19,7 @@ PRODUCT_COPY_FILES += \
 
 # EGL
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxys2-common/proprietary/graphics/lib/hw/gralloc.s5pc210.so:system/lib/hw/gralloc.s5pc210.so \
+    vendor/samsung/galaxys2-common/proprietary/graphics/lib/hw/gralloc.exynos4.so:system/lib/hw/gralloc.exynos4.so \
     vendor/samsung/galaxys2-common/proprietary/graphics/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
     vendor/samsung/galaxys2-common/proprietary/graphics/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/samsung/galaxys2-common/proprietary/graphics/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
@@ -34,7 +34,7 @@ PRODUCT_COPY_FILES += \
 
 # HWCOMPOSER - needs SecTVOutService
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/hw/hwcomposer.s5pc210.so:system/lib/hw/hwcomposer.s5pc210.so \
+    vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/hw/hwcomposer.exynos4.so:system/lib/hw/hwcomposer.exynos4.so \
     vendor/samsung/galaxys2-common/proprietary/hwcomposer/bin/bintvoutservice:system/bin/bintvoutservice \
     vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libcec.so:system/lib/libcec.so \
     vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libddc.so:system/lib/libddc.so \
@@ -50,7 +50,7 @@ PRODUCT_COPY_FILES += \
 
 # CAMERA
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxys2-common/proprietary/camera/lib/hw/camera.s5pc210.so:system/lib/hw/camera.s5pc210.so \
+    vendor/samsung/galaxys2-common/proprietary/camera/lib/hw/camera.exynos4.so:system/lib/hw/camera.exynos4.so \
     vendor/samsung/galaxys2-common/proprietary/camera/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/samsung/galaxys2-common/proprietary/camera/lib/libcaps.so:system/lib/libcaps.so \
     vendor/samsung/galaxys2-common/proprietary/camera/lib/libs5pjpeg.so:system/lib/libs5pjpeg.so
@@ -96,7 +96,7 @@ PRODUCT_COPY_FILES += \
 
 # GPS
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxys2-common/proprietary/gps/lib/hw/gps.s5pc210.so:system/lib/hw/gps.s5pc210.so
+    vendor/samsung/galaxys2-common/proprietary/gps/lib/hw/gps.exynos4.so:system/lib/hw/gps.exynos4.so
 
 # WIFI
 PRODUCT_COPY_FILES += \
@@ -115,8 +115,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2-common/proprietary/audio/bin/alsa_ctl:system/bin/alsa_ctl \
     vendor/samsung/galaxys2-common/proprietary/audio/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
     vendor/samsung/galaxys2-common/proprietary/audio/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
-    vendor/samsung/galaxys2-common/proprietary/audio/lib/hw/audio.primary.s5pc210.so:system/lib/hw/audio.primary.s5pc210.so \
-    vendor/samsung/galaxys2-common/proprietary/audio/lib/hw/audio_policy.s5pc210.so:system/lib/hw/audio_policy.s5pc210.so \
+    vendor/samsung/galaxys2-common/proprietary/audio/lib/hw/audio.primary.exynos4.so:system/lib/hw/audio.primary.exynos4.so \
+    vendor/samsung/galaxys2-common/proprietary/audio/lib/hw/audio_policy.exynos4.so:system/lib/hw/audio_policy.exynos4.so \
     vendor/samsung/galaxys2-common/proprietary/audio/lib/lib_Samsung_Acoustic_Module_Llite.so:system/lib/lib_Samsung_Acoustic_Module_Llite.so \
     vendor/samsung/galaxys2-common/proprietary/audio/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
     vendor/samsung/galaxys2-common/proprietary/audio/lib/lib_Samsung_Sound_Booster.so:system/lib/lib_Samsung_Sound_Booster.so \
