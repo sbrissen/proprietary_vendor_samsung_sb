@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2-common/proprietary/graphics/lib/libMali.so:system/lib/libMali.so \
     vendor/samsung/galaxys2-common/proprietary/graphics/lib/libUMP.so:system/lib/libUMP.so
 
+
 # HWCOMPOSER - needs SecTVOutService
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/hw/hwcomposer.exynos4.so:system/lib/hw/hwcomposer.exynos4.so \
@@ -87,12 +88,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2-common/proprietary/vold/lib/libsec_ecryptfs.so:system/lib/libsec_ecryptfs.so \
     vendor/samsung/galaxys2-common/proprietary/vold/lib/libsec_km.so:system/lib/libsec_km.so \
     vendor/samsung/galaxys2-common/proprietary/vold/lib/libsecfips.so:system/lib/libsecfips.so
-
-# MTP
-PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxys2-common/proprietary/mtp/lib/libmtp.so:system/lib/libmtp.so \
-    vendor/samsung/galaxys2-common/proprietary/mtp/lib/libmtp_samsung.so:system/lib/libmtp_samsung.so \
-    vendor/samsung/galaxys2-common/proprietary/mtp/lib/libmtp_samsung_jni.so:system/lib/libmtp_samsung_jni.so
 
 # SENSORS
 PRODUCT_COPY_FILES += \
