@@ -76,8 +76,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxvp8d.so:system/lib/libsomxvp8d.so \
     vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxwmad.so:system/lib/libsomxwmad.so \
     vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxwmv7d.so:system/lib/libsomxwmv7d.so \
-    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so \
-    vendor/samsung/galaxys2-common/proprietary/omx/lib/libstagefright_omx.so:system/lib/libstagefright_omx.so
+    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so
 
 # VOLD
 PRODUCT_COPY_FILES += \
