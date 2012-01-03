@@ -92,7 +92,7 @@ PRODUCT_COPY_FILES += \
 # SENSORS
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2-common/proprietary/sensors/lib/libakm.so:system/lib/libakm.so \
-    vendor/samsung/galaxys2-common/proprietary/sensors/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so
+    vendor/samsung/galaxys2-common/proprietary/sensors/lib/hw/sensors.exynos4.so:system/lib/hw/sensors.exynos4.so
 
 # GPS
 PRODUCT_COPY_FILES += \
