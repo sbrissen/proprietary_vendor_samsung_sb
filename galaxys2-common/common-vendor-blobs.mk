@@ -57,6 +57,14 @@ PRODUCT_COPY_FILES += \
 
 # OMX
 PRODUCT_COPY_FILES += \
+    vendor/samsung/galaxys2-common/proprietary/omx/lib/libhwconverter.so:system/lib/libhwconverter.so \
+    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsavsac.so:system/lib/libsavsac.so \
+    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsavscmn.so:system/lib/libsavscmn.so \
+    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsavsff.so:system/lib/libsavsff.so \
+    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsavsmeta.so:system/lib/libsavsmeta.so \
+    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsavsvc.so:system/lib/libsavsvc.so \
+    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsecmfcdecapi.so:system/lib/libsecmfcdecapi.so \
+    vendor/samsung/galaxys2-common/proprietary/omx/lib/libsecmfcencapi.so:system/lib/libsecmfcencapi.so \
     vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomx263d.so:system/lib/libsomx263d.so \
     vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomx264d.so:system/lib/libsomx264d.so \
     vendor/samsung/galaxys2-common/proprietary/omx/lib/libsomxaacd.so:system/lib/libsomxaacd.so \
