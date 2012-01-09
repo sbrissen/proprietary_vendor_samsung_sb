@@ -43,11 +43,7 @@ PRODUCT_COPY_FILES += \
 # Wifi
 #
 PRODUCT_COPY_FILES += \
-    vendor/samsung/charge/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
-    vendor/samsung/charge/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
-    vendor/samsung/charge/proprietary/etc/wifi/bcm4329_aps.bin:system/etc/wifi/bcm4329_aps.bin \
-    vendor/samsung/charge/proprietary/etc/wifi/bcm4329_mfg.bin:system/etc/wifi/bcm4329_mfg.bin \
-    vendor/samsung/charge/proprietary/etc/wifi/bcm4329_sta.bin:system/etc/wifi/bcm4329_sta.bin
+    vendor/samsung/charge/proprietary/vendor/firmware/nvram_net.txt:system/vendor/firmware/nvram_net.txt
 
 #
 # Sensors, Lights etc
