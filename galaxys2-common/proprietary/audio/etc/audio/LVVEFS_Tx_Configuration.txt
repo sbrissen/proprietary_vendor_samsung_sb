@@ -1,14 +1,15 @@
-55
+56
 7
 1
 
 1
-4
+5
 LVVEFS_ABSOLUTE_PATH
 /system/etc/audio/Tx_ControlParams_EARPIECE_WIDEBAND.txt
 /system/etc/audio/Tx_ControlParams_SPEAKER_WIDEBAND.txt
 /system/etc/audio/Tx_ControlParams_WIRED_HEADPHONE_WIDEBAND.txt
 /system/etc/audio/Tx_ControlParams_WIRED_HEADSET_WIDEBAND.txt
+/system/etc/audio/Tx_ControlParams_BLUETOOTH_HEADSET.txt
 
 17640
 0
