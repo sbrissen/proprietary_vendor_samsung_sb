@@ -48,7 +48,10 @@ PRODUCT_COPY_FILES += \
 # SENSORS
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxytab101/proprietary/sensors/lib/hw/sensors.p3.so:system/lib/hw/sensors.p3.so \
-	
+	vendor/samsung/galaxytab101/proprietary/sensors/lib/libmpl.so:system/lib/libmpl.so \
+	vendor/samsung/galaxytab101/proprietary/sensors/lib/libakm.so:system/lib/libakm.so \
+	vendor/samsung/galaxytab101/proprietary/sensors/lib/libmlplatform.so:system/lib/libmlplatform.so \
+	vendor/samsung/galaxytab101/proprietary/sensors/lib/libmlplatform.so:system/lib/libmllite.so
 # NVIDIA
 PRODUCT_COPY_FILES += \
 	vendor/samsung/galaxytab101/proprietary/nvidia/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
@@ -96,6 +99,28 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxytab101/proprietary/nvidia/lib/libnvrm.so:system/lib/libnvrm.so \
     vendor/samsung/galaxytab101/proprietary/nvidia/lib/libnvtestio.so:system/lib/libnvtestio.so \
     vendor/samsung/galaxytab101/proprietary/nvidia/lib/libnvec.so:system/lib/libnvec.so \
+	vendor/samsung/galaxytab101/proprietary/nvidia/lib/libnvapputil.so:system/lib/libnvapputil.so \
+	vendor/samsung/galaxytab101/proprietary/nvidia/lib/libnvasfparserhal.so:system/lib/libnvasfparserhal.so \
+	vendor/samsung/galaxytab101/proprietary/nvidia/lib/libnvaviparserhal.so:system/lib/libnvaviparserhal.so \
+	vendor/samsung/galaxytab101/proprietary/nvidia/lib/libnvavp.so:system/lib/libnvavp.so \
+	vendor/samsung/galaxytab101/proprietary/nvidia/lib/libnvcontrol_jni.so:system/lib/libnvcontrol_jni.so \
+	vendor/samsung/galaxytab101/proprietary/nvidia/lib/libnvcpud_client.so:system/lib/libnvcpud_client.so \
+	vendor/samsung/galaxytab101/proprietary/nvidia/lib/libnvcpud.so:system/lib/libnvcpud.so \
+	vendor/samsung/galaxytab101/proprietary/nvidia/lib/libnvhdmi3dplay_jni.so:system/lib/libnvhdmi3dplay_jni.so \
+	vendor/samsung/galaxytab101/proprietary/nvidia/lib/libnvmmlite_audio.so:system/lib/libnvmmlite_audio.so \
+	vendor/samsung/galaxytab101/proprietary/nvidia/lib/libnvmmlite_image.so:system/lib/libnvmmlite_image.so \
+	vendor/samsung/galaxytab101/proprietary/nvidia/lib/libnvmmlite_msaudio.so:system/lib/libnvmmlite_msaudio.so \
+	vendor/samsung/galaxytab101/proprietary/nvidia/lib/libnvmmlite.so:system/lib/libnvmmlite.so \
+	vendor/samsung/galaxytab101/proprietary/nvidia/lib/libnvmmlite_utils.so:system/lib/libnvmmlite_utils.so \
+	vendor/samsung/galaxytab101/proprietary/nvidia/lib/libnvmmlite_video.so:system/lib/libnvmmlite_video.so \
+	vendor/samsung/galaxytab101/proprietary/nvidia/lib/libnvodm_hdmi.so:system/lib/libnvodm_hdmi.so \
+	vendor/samsung/galaxytab101/proprietary/nvidia/lib/libnvodm_misc.so:system/lib/libnvodm_misc.so \
+	vendor/samsung/galaxytab101/proprietary/nvidia/lib/libnvomxadaptor.so:system/lib/libnvomxadaptor.so \
+	vendor/samsung/galaxytab101/proprietary/nvidia/lib/libnvparser.so:system/lib/libnvparser.so \
+	vendor/samsung/galaxytab101/proprietary/nvidia/lib/libnvstereoutils_jni.so:system/lib/libnvstereoutils_jni.so \
+	vendor/samsung/galaxytab101/proprietary/nvidia/lib/libnvsystemuiext_jni.so:system/lib/libnvsystemuiext_jni.so \
+	vendor/samsung/galaxytab101/proprietary/nvidia/lib/omxplayer.so:system/lib/omxplayer.so \
+	vendor/samsung/galaxytab101/proprietary/nvidia/lib/libnvtvmr.so:system/lib/libnvtvmr.so \
     vendor/samsung/galaxytab101/proprietary/nvidia/bin/nv_hciattach:system/bin/nv_hciattach \
     vendor/samsung/galaxytab101/proprietary/nvidia/bin/nvrm_daemon:system/bin/nvrm_daemon \
     vendor/samsung/galaxytab101/proprietary/nvidia/bin/nvtest:system/bin/nvtest \
@@ -108,17 +133,20 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxytab101/proprietary/nvidia/etc/firmware/nvmm_aacdec.axf:system/etc/firmware/nvmm_aacdec.axf \
     vendor/samsung/galaxytab101/proprietary/nvidia/etc/firmware/nvmm_adtsdec.axf:system/etc/firmware/nvmm_adtsdec.axf \
     vendor/samsung/galaxytab101/proprietary/nvidia/etc/firmware/nvmm_audiomixer.axf:system/etc/firmware/nvmm_audiomixer.axf \
+	vendor/samsung/galaxytab101/proprietary/nvidia/etc/firmware/nvmm_h264dec2x.axf:system/etc/firmware/nvmm_h264dec2x.axf \
     vendor/samsung/galaxytab101/proprietary/nvidia/etc/firmware/nvmm_h264dec.axf:system/etc/firmware/nvmm_h264dec.axf \
     vendor/samsung/galaxytab101/proprietary/nvidia/etc/firmware/nvmm_jpegdec.axf:system/etc/firmware/nvmm_jpegdec.axf \
     vendor/samsung/galaxytab101/proprietary/nvidia/etc/firmware/nvmm_jpegenc.axf:system/etc/firmware/nvmm_jpegenc.axf \
     vendor/samsung/galaxytab101/proprietary/nvidia/etc/firmware/nvmm_manager.axf:system/etc/firmware/nvmm_manager.axf \
     vendor/samsung/galaxytab101/proprietary/nvidia/etc/firmware/nvmm_mp2dec.axf:system/etc/firmware/nvmm_mp2dec.axf \
     vendor/samsung/galaxytab101/proprietary/nvidia/etc/firmware/nvmm_mp3dec.axf:system/etc/firmware/nvmm_mp3dec.axf \
+	vendor/samsung/galaxytab101/proprietary/nvidia/etc/firmware/nvmm_mpeg2dec.axf:system/etc/firmware/nvmm_mpeg2dec.axf \
     vendor/samsung/galaxytab101/proprietary/nvidia/etc/firmware/nvmm_mpeg4dec.axf:system/etc/firmware/nvmm_mpeg4dec.axf \
     vendor/samsung/galaxytab101/proprietary/nvidia/etc/firmware/nvmm_reference.axf:system/etc/firmware/nvmm_reference.axf \
     vendor/samsung/galaxytab101/proprietary/nvidia/etc/firmware/nvmm_service.axf:system/etc/firmware/nvmm_service.axf \
     vendor/samsung/galaxytab101/proprietary/nvidia/etc/firmware/nvmm_sorensondec.axf:system/etc/firmware/nvmm_sorensondec.axf \
     vendor/samsung/galaxytab101/proprietary/nvidia/etc/firmware/nvmm_vc1dec.axf:system/etc/firmware/nvmm_vc1dec.axf \
+	vendor/samsung/galaxytab101/proprietary/nvidia/etc/firmware/nvmm_vc1dec_2x.axf:system/etc/firmware/nvmm_vc1dec_2x.axf \
     vendor/samsung/galaxytab101/proprietary/nvidia/etc/firmware/nvmm_wavdec.axf:system/etc/firmware/nvmm_wavdec.axf \
     vendor/samsung/galaxytab101/proprietary/nvidia/etc/firmware/nvmm_wmadec.axf:system/etc/firmware/nvmm_wmadec.axf \
     vendor/samsung/galaxytab101/proprietary/nvidia/etc/firmware/nvmm_wmaprodec.axf:system/etc/firmware/nvmm_wmaprodec.axf \
@@ -137,8 +165,8 @@ PRODUCT_COPY_FILES += \
 	
 # RIL
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxytab101/proprietary/ril/bin/rild:system/bin/rild \
-    vendor/samsung/galaxytab101/proprietary/ril/lib/libril.so:system/lib/libril.so \
+#    vendor/samsung/galaxytab101/proprietary/ril/bin/rild:system/bin/rild \
+#    vendor/samsung/galaxytab101/proprietary/ril/lib/libril.so:system/lib/libril.so \
     vendor/samsung/galaxytab101/proprietary/ril/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/galaxytab101/proprietary/ril/lib/libsecril-client.so:system/lib/libsecril-client.so
 	
@@ -155,7 +183,16 @@ PRODUCT_COPY_FILES += \
 	
 # WIFI
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxytab101/proprietary/wifi/bin/bcm4330B1.hcd:system/bin/bcm4330B1.hcd
+    vendor/samsung/galaxytab101/proprietary/wifi/bin/bcm4330B1.hcd:system/etc/firmware/bcm4330B1.hcd \
+	vendor/samsung/galaxytab101/proprietary/wifi/etc/wifi/bcm4330_sta.bin:system/etc/wifi/bcm4330_sta.bin \
+	vendor/samsung/galaxytab101/proprietary/wifi/etc/wifi/bcm4330_sta.bin_b0:system/etc/wifi/bcm4330_sta.bin_b0 \
+	vendor/samsung/galaxytab101/proprietary/wifi/etc/wifi/bcm4330_mfg.bin:system/etc/wifi/bcm4330_mfg.bin \
+	vendor/samsung/galaxytab101/proprietary/wifi/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
+	vendor/samsung/galaxytab101/proprietary/wifi/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
+	vendor/samsung/galaxytab101/proprietary/wifi/etc/wifi/nvram_net.txt_b0:system/etc/wifi/nvram_net.txt_b0 \
+	vendor/samsung/galaxytab101/proprietary/wifi/etc/wifi/nvram_net.txt_us:system/etc/wifi/nvram_net.txt_us \
+	vendor/samsung/galaxytab101/proprietary/wifi/etc/wifi/wl:system/etc/wifi/wl \
+	vendor/samsung/galaxytab101/proprietary/wifi/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
 	
 # low power mode
 PRODUCT_COPY_FILES += \
@@ -195,6 +232,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxytab101/proprietary/audio/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
     vendor/samsung/galaxytab101/proprietary/audio/lib/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so \
     vendor/samsung/galaxytab101/proprietary/audio/lib/lib_Samsung_Sound_Booster.so:system/lib/lib_Samsung_Sound_Booster.so \
-    vendor/samsung/galaxytab101/proprietary/audio/lib/libsoundalive.so:system/lib/libsoundalive.so \
-    vendor/samsung/galaxytab101/proprietary/audio/lib/libsoundpool.so:system/lib/libsoundpool.so \
     vendor/samsung/galaxytab101/proprietary/audio/lib/libSR_AudioIn.so:system/lib/libSR_AudioIn.so \
