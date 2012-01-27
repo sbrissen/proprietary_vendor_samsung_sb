@@ -26,28 +26,24 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/charge/proprietary/bin/pvrsrvinit:system/bin/pvrsrvinit \
     vendor/samsung/charge/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-    vendor/samsung/charge/proprietary/lib/egl/libEGL_POWERVR_SGX540_120.so:system/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so \
-    vendor/samsung/charge/proprietary/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
-    vendor/samsung/charge/proprietary/lib/egl/libGLESv2_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
-    vendor/samsung/charge/proprietary/lib/hw/gralloc.s5pc110.so:system/vendor/lib/hw/gralloc.s5pc110.so \
-    vendor/samsung/charge/proprietary/lib/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
-    vendor/samsung/charge/proprietary/lib/libIMGegl.so:system/vendor/lib/libIMGegl.so \
-    vendor/samsung/charge/proprietary/lib/libpvr2d.so:system/vendor/lib/libpvr2d.so \
-    vendor/samsung/charge/proprietary/lib/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
-    vendor/samsung/charge/proprietary/lib/libPVRScopeServices.so:system/vendor/lib/libPVRScopeServices.so \
-    vendor/samsung/charge/proprietary/lib/libsrv_init.so:system/vendor/lib/libsrv_init.so \
-    vendor/samsung/charge/proprietary/lib/libsrv_um.so:system/vendor/lib/libsrv_um.so \
-    vendor/samsung/charge/proprietary/lib/libusc.so:system/vendor/lib/libusc.so
+    vendor/samsung/charge/proprietary/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so:system/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so \
+    vendor/samsung/charge/proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
+    vendor/samsung/charge/proprietary/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
+    vendor/samsung/charge/proprietary/vendor/lib/hw/gralloc.s5pc110.so:system/vendor/lib/hw/gralloc.s5pc110.so \
+    vendor/samsung/charge/proprietary/vendor/lib/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
+    vendor/samsung/charge/proprietary/vendor/lib/libIMGegl.so:system/vendor/lib/libIMGegl.so \
+    vendor/samsung/charge/proprietary/vendor/lib/libpvr2d.so:system/vendor/lib/libpvr2d.so \
+    vendor/samsung/charge/proprietary/vendor/lib/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
+    vendor/samsung/charge/proprietary/vendor/lib/libPVRScopeServices.so:system/vendor/lib/libPVRScopeServices.so \
+    vendor/samsung/charge/proprietary/vendor/lib/libsrv_init.so:system/vendor/lib/libsrv_init.so \
+    vendor/samsung/charge/proprietary/vendor/lib/libsrv_um.so:system/vendor/lib/libsrv_um.so \
+    vendor/samsung/charge/proprietary/vendor/lib/libusc.so:system/vendor/lib/libusc.so
 
 #
 # Wifi
 #
 PRODUCT_COPY_FILES += \
-    vendor/samsung/charge/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
-    vendor/samsung/charge/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
-    vendor/samsung/charge/proprietary/etc/wifi/bcm4329_aps.bin:system/etc/wifi/bcm4329_aps.bin \
-    vendor/samsung/charge/proprietary/etc/wifi/bcm4329_mfg.bin:system/etc/wifi/bcm4329_mfg.bin \
-    vendor/samsung/charge/proprietary/etc/wifi/bcm4329_sta.bin:system/etc/wifi/bcm4329_sta.bin
+    vendor/samsung/charge/proprietary/vendor/firmware/nvram_net.txt:system/vendor/firmware/nvram_net.txt
 
 #
 # Sensors, Lights etc
@@ -55,7 +51,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/charge/proprietary/bin/geomagneticd:system/bin/geomagneticd \
     vendor/samsung/charge/proprietary/bin/orientationd:system/bin/orientationd \
-    vendor/samsung/charge/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
+    vendor/samsung/charge/proprietary/lib/hw/sensors.s5pc110.so:system/lib/hw/sensors.s5pc110.so \
     vendor/samsung/charge/proprietary/lib/libsensor_yamaha_test.so:system/lib/libsensor_yamaha_test.so \
     vendor/samsung/charge/proprietary/lib/hw/lights.s5pc110.so:system/lib/hw/lights.s5pc110.so
 
@@ -72,11 +68,29 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/charge/proprietary/lib/libril.so:system/lib/libril.so
 
 #
+# samsung crap needed for ril libraries
+#
+PRODUCT_COPY_FILES += \
+    vendor/samsung/charge/proprietary/bin/netd:system/bin/netd \
+    vendor/samsung/charge/proprietary/lib/libnetutils.so:system/lib/libnetutils.so \
+    vendor/samsung/charge/proprietary/lib/libwlbrcmp2papp.so:system/lib/libwlbrcmp2papp.so \
+    vendor/samsung/charge/proprietary/lib/libwldhcp.so:system/lib/libwldhcp.so \
+    vendor/samsung/charge/proprietary/lib/libwlp2p.so:system/lib/libwlp2p.so \
+    vendor/samsung/charge/proprietary/lib/libwlwpscli.so:system/lib/libwlwpscli.so \
+    vendor/samsung/charge/proprietary/lib/libwlwps.so:system/lib/libwlwps.so
+
+#
 # GPS
 #
 PRODUCT_COPY_FILES += \
     vendor/samsung/charge/proprietary/bin/gpsd:system/bin/gpsd \
     vendor/samsung/charge/proprietary/lib/hw/gps.s5pc110.so:system/lib/hw/gps.s5pc110.so
+
+#
+# bluetooth
+#
+PRODUCT_COPY_FILES += \
+    vendor/samsung/charge/proprietary/bin/BCM4329B1_002.002.023.0746.0818.hcd:system/bin/BCM4329B1_002.002.023.0746.0818.hcd
 
 #
 # Files for battery charging screen
