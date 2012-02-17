@@ -17,6 +17,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libTVOut.so:obj/lib/libTVOut.so \
     vendor/samsung/galaxys2-common/proprietary/audio/lib/libmediayamahaservice.so:obj/lib/libmediayamahaservice.so 
 
+# ASEC - FIXME
+PRODUCT_COPY_FILES += \
+    vendor/samsung/galaxys2-common/proprietary/asec/app/DefaultContainerService.apk:system/app/DefaultContainerService.apk
+
 # EGL
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2-common/proprietary/graphics/lib/hw/gralloc.exynos4.so:system/lib/hw/gralloc.exynos4.so \
@@ -30,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2-common/proprietary/graphics/lib/libion.so:system/lib/libion.so \
     vendor/samsung/galaxys2-common/proprietary/graphics/lib/libMali.so:system/lib/libMali.so \
     vendor/samsung/galaxys2-common/proprietary/graphics/lib/libUMP.so:system/lib/libUMP.so
-
 
 # HWCOMPOSER - needs SecTVOutService
 PRODUCT_COPY_FILES += \
