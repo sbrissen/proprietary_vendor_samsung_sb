@@ -51,7 +51,7 @@ PRODUCT_COPY_FILES += \
 	
 # CAMERA
 #PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxynote/proprietary/camera/lib/hw/camera.exynos4.so:system/lib/hw/camera.exynos4.so \
+    vendor/samsung/galaxynote/proprietary/camera/lib/hw/camera.exynos4.so:system/lib/hw/vendor-camera.exynos4.so \
     vendor/samsung/galaxynote/proprietary/camera/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/samsung/galaxynote/proprietary/camera/lib/libcaps.so:system/lib/libcaps.so \
     vendor/samsung/galaxynote/proprietary/camera/lib/libs5pjpeg.so:system/lib/libs5pjpeg.so \
