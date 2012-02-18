@@ -68,6 +68,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxynote/proprietary/omx/lib/libsavsvc.so:system/lib/libsavsvc.so \
     vendor/samsung/galaxynote/proprietary/omx/lib/libsecmfcdecapi.so:system/lib/libsecmfcdecapi.so \
     vendor/samsung/galaxynote/proprietary/omx/lib/libsecmfcencapi.so:system/lib/libsecmfcencapi.so \
+    vendor/samsung/galaxynote/proprietary/omx/lib/libsomx263d.so:system/lib/libsomx263d.so \
     vendor/samsung/galaxynote/proprietary/omx/lib/libsomx264d.so:system/lib/libsomx264d.so \
     vendor/samsung/galaxynote/proprietary/omx/lib/libsomxaacd.so:system/lib/libsomxaacd.so \
     vendor/samsung/galaxynote/proprietary/omx/lib/libsomxaace.so:system/lib/libsomxaace.so \
@@ -83,10 +84,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxynote/proprietary/omx/lib/libsomxsr263d.so:system/lib/libsomxsr263d.so \
     vendor/samsung/galaxynote/proprietary/omx/lib/libsomxvc1d.so:system/lib/libsomxvc1d.so \
     vendor/samsung/galaxynote/proprietary/omx/lib/libsomxvenc.so:system/lib/libsomxvenc.so \
-	vendor/samsung/galaxynote/proprietary/omx/lib/libsomxvp8d.so:system/lib/libsomxvp8d.so \
     vendor/samsung/galaxynote/proprietary/omx/lib/libsomxwmad.so:system/lib/libsomxwmad.so \
     vendor/samsung/galaxynote/proprietary/omx/lib/libsomxwmv7d.so:system/lib/libsomxwmv7d.so \
-    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so \
+    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so
 
 # SENSORS
 PRODUCT_COPY_FILES += \
