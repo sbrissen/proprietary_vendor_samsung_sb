@@ -120,9 +120,9 @@ PRODUCT_COPY_FILES += \
 
 # low power mode
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxynote/proprietary/lpm/bin/charging_mode:system/bin/charging_mode \
+    vendor/samsung/galaxynote/proprietary/lpm/bin/immvibed:system/bin/immvibed \
+    vendor/samsung/galaxynote/proprietary/lpm/bin/lpmkey:system/bin/lpmkey \
     vendor/samsung/galaxynote/proprietary/lpm/bin/playlpm:system/bin/playlpm \
-    vendor/samsung/galaxynote/proprietary/lpm/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
     vendor/samsung/galaxynote/proprietary/lpm/media/battery_charging_10.qmg:system/media/battery_charging_10.qmg \
     vendor/samsung/galaxynote/proprietary/lpm/media/battery_charging_100.qmg:system/media/battery_charging_100.qmg \
     vendor/samsung/galaxynote/proprietary/lpm/media/battery_charging_15.qmg:system/media/battery_charging_15.qmg \
