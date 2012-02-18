@@ -23,8 +23,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxynote/proprietary/graphics/lib/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
     vendor/samsung/galaxynote/proprietary/graphics/lib/libGLESv2.so:system/lib/libGLESv2.so \
+	vendor/samsung/galaxynote/proprietary/graphics/lib/libGLESv2_dbg.so:system/lib/libGLESv2_dbg.so \
     vendor/samsung/galaxynote/proprietary/graphics/lib/libMali.so:system/lib/libMali.so \
     vendor/samsung/galaxynote/proprietary/graphics/lib/libUMP.so:system/lib/libUMP.so \
+	vendor/samsung/galaxynote/proprietary/graphics/lib/libion.so:system/lib/libion.so \
     vendor/samsung/galaxynote/proprietary/graphics/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
     vendor/samsung/galaxynote/proprietary/graphics/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/samsung/galaxynote/proprietary/graphics/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
@@ -49,51 +51,65 @@ PRODUCT_COPY_FILES += \
 	
 # CAMERA
 #PRODUCT_COPY_FILES += \
-#    vendor/samsung/galaxynote/proprietary/camera/lib/hw/camera.exynos4.so:system/lib/hw/camera.exynos4.so \
-#    vendor/samsung/galaxynote/proprietary/camera/lib/libcamera_client.so:system/lib/libcamera_client.so \
-#    vendor/samsung/galaxynote/proprietary/camera/lib/libcaps.so:system/lib/libcaps.so \
-#    vendor/samsung/galaxynote/proprietary/camera/lib/libs5pjpeg.so:system/lib/libs5pjpeg.so \
-#    vendor/samsung/galaxynote/proprietary/camera/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
-#    vendor/samsung/galaxynote/proprietary/camera/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv
+    vendor/samsung/galaxynote/proprietary/camera/lib/hw/camera.exynos4.so:system/lib/hw/camera.exynos4.so \
+    vendor/samsung/galaxynote/proprietary/camera/lib/libcamera_client.so:system/lib/libcamera_client.so \
+    vendor/samsung/galaxynote/proprietary/camera/lib/libcaps.so:system/lib/libcaps.so \
+    vendor/samsung/galaxynote/proprietary/camera/lib/libs5pjpeg.so:system/lib/libs5pjpeg.so \
+    vendor/samsung/galaxynote/proprietary/camera/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
+    vendor/samsung/galaxynote/proprietary/camera/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv
 	
 # OMX
-#PRODUCT_COPY_FILES += \
-#    vendor/samsung/galaxynote/proprietary/omx/lib/libsomx263d.so:system/lib/libsomx263d.so \
-#    vendor/samsung/galaxynote/proprietary/omx/lib/libsomx264d.so:system/lib/libsomx264d.so \
-#    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxaacd.so:system/lib/libsomxaacd.so \
-#    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxaace.so:system/lib/libsomxaace.so \
-#    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxac3d.so:system/lib/libsomxac3d.so \
-#    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxamrd.so:system/lib/libsomxamrd.so \
-#    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxamre.so:system/lib/libsomxamre.so \
-#    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxcmn.so:system/lib/libsomxcmn.so \
-#    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxcore.so:system/lib/libsomxcore.so \
-#    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxflacd.so:system/lib/libsomxflacd.so \
-#    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxmp3d.so:system/lib/libsomxmp3d.so \
-#    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxmp4vd.so:system/lib/libsomxmp4vd.so \
-#    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxmp43d.so:system/lib/libsomxmp43d.so \
-#    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxsr263d.so:system/lib/libsomxsr263d.so \
-#    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxvc1d.so:system/lib/libsomxvc1d.so \
-#    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxvenc.so:system/lib/libsomxvenc.so \
-#    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxvp8d.so:system/lib/libsomxvp8d.so \
-#    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxwmad.so:system/lib/libsomxwmad.so \
-#    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxwmv7d.so:system/lib/libsomxwmv7d.so \
-#    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so \
-#    vendor/samsung/galaxynote/proprietary/omx/lib/libstagefright_omx.so:system/lib/libstagefright_omx.so
-#
+PRODUCT_COPY_FILES += \
+    vendor/samsung/galaxynote/proprietary/omx/lib/libhwconverter.so:system/lib/libhwconverter.so \
+	vendor/samsung/galaxynote/proprietary/omx/lib/libsavsac.so:system/lib/libsavsac.so \
+    vendor/samsung/galaxynote/proprietary/omx/lib/libsavscmn.so:system/lib/libsavscmn.so \
+    vendor/samsung/galaxynote/proprietary/omx/lib/libsavsff.so:system/lib/libsavsff.so \
+    vendor/samsung/galaxynote/proprietary/omx/lib/libsavsmeta.so:system/lib/libsavsmeta.so \
+    vendor/samsung/galaxynote/proprietary/omx/lib/libsavsvc.so:system/lib/libsavsvc.so \
+    vendor/samsung/galaxynote/proprietary/omx/lib/libsecmfcdecapi.so:system/lib/libsecmfcdecapi.so \
+    vendor/samsung/galaxynote/proprietary/omx/lib/libsecmfcencapi.so:system/lib/libsecmfcencapi.so \
+    vendor/samsung/galaxynote/proprietary/omx/lib/libsomx264d.so:system/lib/libsomx264d.so \
+    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxaacd.so:system/lib/libsomxaacd.so \
+    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxaace.so:system/lib/libsomxaace.so \
+    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxac3d.so:system/lib/libsomxac3d.so \
+    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxamrd.so:system/lib/libsomxamrd.so \
+    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxamre.so:system/lib/libsomxamre.so \
+    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxcmn.so:system/lib/libsomxcmn.so \
+    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxcore.so:system/lib/libsomxcore.so \
+    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxflacd.so:system/lib/libsomxflacd.so \
+    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxmp3d.so:system/lib/libsomxmp3d.so \
+    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxmp4vd.so:system/lib/libsomxmp4vd.so \
+    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxmp43d.so:system/lib/libsomxmp43d.so \
+    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxsr263d.so:system/lib/libsomxsr263d.so \
+    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxvc1d.so:system/lib/libsomxvc1d.so \
+    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxvenc.so:system/lib/libsomxvenc.so \
+	vendor/samsung/galaxynote/proprietary/omx/lib/libsomxvp8d.so:system/lib/libsomxvp8d.so \
+    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxwmad.so:system/lib/libsomxwmad.so \
+    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxwmv7d.so:system/lib/libsomxwmv7d.so \
+    vendor/samsung/galaxynote/proprietary/omx/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so \
 
 # SENSORS
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxynote/proprietary/sensors/lib/hw/sensors.GT-N7000.so:system/lib/hw/sensors.exynos4.so \
+    vendor/samsung/galaxynote/proprietary/sensors/lib/hw/sensors.exynos4.so:system/lib/hw/sensors.exynos4.so \
     vendor/samsung/galaxynote/proprietary/sensors/lib/libakm.so:system/lib/libakm.so
 	
 # GPS
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxynote/proprietary/gps/lib/hw/gps.exynos4.so:system/lib/hw/gps.exynos4.so \
-	vendor/samsung/galaxynote/proprietary/gps/bin/gpsd:system/bin/gpsd
+    vendor/samsung/galaxynote/proprietary/gps/lib/hw/gps.exynos4.so:system/lib/hw/gps.exynos4.so
 	
 # WIFI
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxynote/proprietary/wifi/bin/bcm4330B1.hcd:system/bin/bcm4330B1.hcd \
+    vendor/samsung/galaxynote/proprietary/wifi/etc/wifi/bcm4330_apsta.bin:system/etc/wifi/bcm4330_apsta.bin \
+    vendor/samsung/galaxynote/proprietary/wifi/etc/wifi/bcm4330_mfg.bin:system/etc/wifi/bcm4330_mfg.bin \
+    vendor/samsung/galaxynote/proprietary/wifi/etc/wifi/bcm4330_p2p.bin:system/etc/wifi/bcm4330_p2p.bin \
+    vendor/samsung/galaxynote/proprietary/wifi/etc/wifi/bcm4330_sta.bin:system/etc/wifi/bcm4330_sta.bin \
+    vendor/samsung/galaxynote/proprietary/wifi/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
+    vendor/samsung/galaxynote/proprietary/wifi/etc/wifi/nvram_mfg.txt_murata:system/etc/wifi/nvram_mfg.txt_murata \
+    vendor/samsung/galaxynote/proprietary/wifi/etc/wifi/nvram_mfg.txt_semcove:system/etc/wifi/nvram_mfg.txt_semcove \
+    vendor/samsung/galaxynote/proprietary/wifi/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
+    vendor/samsung/galaxynote/proprietary/wifi/etc/wifi/nvram_net.txt_murata:system/etc/wifi/nvram_net.txt_murata \
+    vendor/samsung/galaxynote/proprietary/wifi/etc/wifi/nvram_net.txt_semcove:system/etc/wifi/nvram_net.txt_semcove \
 	
 # RIL
 PRODUCT_COPY_FILES += \
@@ -133,6 +149,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxynote/proprietary/lpm/media/Disconnected.qmg:system/media/Disconnected.qmg
 	
 PRODUCT_COPY_FILES += \
+    vendor/samsung/galaxynote/proprietary/audio/bin/alsa_amixer:system/bin/alsa_amixer \
+    vendor/samsung/galaxynote/proprietary/audio/bin/alsa_aplay:system/bin/alsa_aplay \
+    vendor/samsung/galaxynote/proprietary/audio/bin/alsa_ctl:system/bin/alsa_ctl \
     vendor/samsung/galaxynote/proprietary/audio/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
     vendor/samsung/galaxynote/proprietary/audio/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
     vendor/samsung/galaxynote/proprietary/audio/lib/hw/audio.primary.exynos4.so:system/lib/hw/audio.primary.exynos4.so \
