@@ -17,6 +17,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libTVOut.so:obj/lib/libTVOut.so \
     vendor/samsung/galaxys2-common/proprietary/audio/lib/libmediayamahaservice.so:obj/lib/libmediayamahaservice.so 
 
+# ASEC - FIXME
+PRODUCT_COPY_FILES += \
+    vendor/samsung/galaxys2-common/proprietary/asec/app/DefaultContainerService.apk:system/app/DefaultContainerService.apk
+
 # EGL
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2-common/proprietary/graphics/lib/hw/gralloc.exynos4.so:system/lib/hw/gralloc.exynos4.so \
@@ -30,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2-common/proprietary/graphics/lib/libion.so:system/lib/libion.so \
     vendor/samsung/galaxys2-common/proprietary/graphics/lib/libMali.so:system/lib/libMali.so \
     vendor/samsung/galaxys2-common/proprietary/graphics/lib/libUMP.so:system/lib/libUMP.so
-
 
 # HWCOMPOSER - needs SecTVOutService
 PRODUCT_COPY_FILES += \
@@ -53,9 +56,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2-common/proprietary/camera/lib/hw/camera.exynos4.so:system/lib/hw/vendor-camera.exynos4.so \
     vendor/samsung/galaxys2-common/proprietary/camera/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/samsung/galaxys2-common/proprietary/camera/lib/libcaps.so:system/lib/libcaps.so \
-    vendor/samsung/galaxys2-common/proprietary/camera/lib/libs5pjpeg.so:system/lib/libs5pjpeg.so \
-    vendor/samsung/galaxys2-common/proprietary/camera/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
-    vendor/samsung/galaxys2-common/proprietary/camera/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv
+    vendor/samsung/galaxys2-common/proprietary/camera/lib/libs5pjpeg.so:system/lib/libs5pjpeg.so
 
 # OMX
 PRODUCT_COPY_FILES += \
