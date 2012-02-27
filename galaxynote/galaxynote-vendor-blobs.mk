@@ -50,7 +50,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxynote/proprietary/hwcomposer/lib/libtvoutservice.so:system/lib/libtvoutservice.so
 	
 # CAMERA
-#PRODUCT_COPY_FILES += \
+PRODUCT_COPY_FILES += \
     vendor/samsung/galaxynote/proprietary/camera/lib/hw/camera.exynos4.so:system/lib/hw/vendor-camera.exynos4.so \
     vendor/samsung/galaxynote/proprietary/camera/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/samsung/galaxynote/proprietary/camera/lib/libcaps.so:system/lib/libcaps.so \
