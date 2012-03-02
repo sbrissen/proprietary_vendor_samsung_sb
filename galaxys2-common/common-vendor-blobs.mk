@@ -17,10 +17,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libTVOut.so:obj/lib/libTVOut.so \
     vendor/samsung/galaxys2-common/proprietary/audio/lib/libmediayamahaservice.so:obj/lib/libmediayamahaservice.so 
 
-# ASEC - FIXME
-PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxys2-common/proprietary/asec/app/DefaultContainerService.apk:system/app/DefaultContainerService.apk
-
 # EGL
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2-common/proprietary/graphics/lib/hw/gralloc.exynos4.so:system/lib/hw/gralloc.exynos4.so \
