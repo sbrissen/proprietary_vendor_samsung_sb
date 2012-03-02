@@ -60,6 +60,8 @@ PRODUCT_COPY_FILES += \
 
 # OMX
 PRODUCT_COPY_FILES += \
+    vendor/samsung/galaxys2-common/proprietary/omx/etc/secomxregistry:system/etc/secomxregistry \
+    vendor/samsung/galaxys2-common/proprietary/omx/etc/somxreg.conf:system/etc/somxreg.conf \
     vendor/samsung/galaxys2-common/proprietary/omx/lib/libhwconverter.so:system/lib/libhwconverter.so \
     vendor/samsung/galaxys2-common/proprietary/omx/lib/libsavsac.so:system/lib/libsavsac.so \
     vendor/samsung/galaxys2-common/proprietary/omx/lib/libsavscmn.so:system/lib/libsavscmn.so \
