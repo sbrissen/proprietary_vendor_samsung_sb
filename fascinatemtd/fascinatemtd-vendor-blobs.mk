@@ -32,3 +32,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/fascinatemtd/proprietary/geomagneticd:system/vendor/bin/geomagneticd \
     vendor/samsung/fascinatemtd/proprietary/orientationd:system/vendor/bin/orientationd \
     vendor/samsung/fascinatemtd/proprietary/sensors.aries.so:system/lib/hw/sensors.aries.so
+	
+#RIL
+PRODUCT_COPY_FILES += \
+	vendor/samsung/fascinatemtd/proprietary/ip-up:system/etc/ppp/ip-up \
+	vendor/samsung/fascinatemtd/proprietary/ip-down:system/etc/ppp/ip-down
