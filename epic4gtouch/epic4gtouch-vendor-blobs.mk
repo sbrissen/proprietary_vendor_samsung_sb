@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES := \
 	vendor/samsung/epic4gtouch/proprietary/hwcomposer/lib/libTVOut.so:obj/lib/libTVOut.so \
     vendor/samsung/epic4gtouch/proprietary/audio/lib/libmediayamahaservice.so:obj/lib/libmediayamahaservice.so \
 	vendor/samsung/epic4gtouch/proprietary/hwcomposer/lib/libfimc.so:obj/lib/libfimc.so \
+	vendor/samsung/epic4gtouch/proprietary/hwcomposer/lib/libhdmiclient.so:obj/lib/libhdmiclient.so \
  
 # All the blobs necessary for epic4gtouch
     
