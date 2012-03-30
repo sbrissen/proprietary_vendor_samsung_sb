@@ -78,7 +78,6 @@ PRODUCT_COPY_FILES += \
  	vendor/samsung/epic4gtouch/proprietary/graphics/lib/hw/gralloc.exynos4.so:system/lib/hw/gralloc.exynos4.so \
     vendor/samsung/epic4gtouch/proprietary/graphics/lib/libMali.so:system/lib/libMali.so \
 	vendor/samsung/epic4gtouch/proprietary/graphics/lib/libion.so:system/lib/libion.so \
-	vendor/samsung/epic4gtouch/proprietary/graphics/lib/libUMP.so:system/lib/libUMP.so \
 	vendor/samsung/epic4gtouch/proprietary/graphics/lib/libGLESv2_dbg.so:system/lib/libGLESv2_dbg.so \
 	vendor/samsung/epic4gtouch/proprietary/graphics/lib/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
 	vendor/samsung/epic4gtouch/proprietary/graphics/lib/libGLESv2.so:system/lib/libGLESv2.so
@@ -107,38 +106,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/epic4gtouch/proprietary/camera/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
     vendor/samsung/epic4gtouch/proprietary/camera/lib/hw/camera.exynos4.so:system/lib/hw/vendor-camera.exynos4.so \
 	vendor/samsung/epic4gtouch/proprietary/camera/lib/libs5pjpeg.so:system/lib/libs5pjpeg.so \
-
-# OMX
-PRODUCT_COPY_FILES += \
-    vendor/samsung/epic4gtouch/proprietary/omx/lib/libhwconverter.so:system/lib/libhwconverter.so \
-    vendor/samsung/epic4gtouch/proprietary/omx/lib/libsavsac.so:system/lib/libsavsac.so \
-    vendor/samsung/epic4gtouch/proprietary/omx/lib/libsavscmn.so:system/lib/libsavscmn.so \
-    vendor/samsung/epic4gtouch/proprietary/omx/lib/libsavsff.so:system/lib/libsavsff.so \
-    vendor/samsung/epic4gtouch/proprietary/omx/lib/libsavsmeta.so:system/lib/libsavsmeta.so \
-    vendor/samsung/epic4gtouch/proprietary/omx/lib/libsavsvc.so:system/lib/libsavsvc.so \
-    vendor/samsung/epic4gtouch/proprietary/omx/lib/libsecmfcdecapi.so:system/lib/libsecmfcdecapi.so \
-    vendor/samsung/epic4gtouch/proprietary/omx/lib/libsecmfcencapi.so:system/lib/libsecmfcencapi.so \
-    vendor/samsung/epic4gtouch/proprietary/omx/lib/libsomx263d.so:system/lib/libsomx263d.so \
-    vendor/samsung/epic4gtouch/proprietary/omx/lib/libsomx264d.so:system/lib/libsomx264d.so \
-    vendor/samsung/epic4gtouch/proprietary/omx/lib/libsomxaacd.so:system/lib/libsomxaacd.so \
-    vendor/samsung/epic4gtouch/proprietary/omx/lib/libsomxaace.so:system/lib/libsomxaace.so \
-    vendor/samsung/epic4gtouch/proprietary/omx/lib/libsomxac3d.so:system/lib/libsomxac3d.so \
-    vendor/samsung/epic4gtouch/proprietary/omx/lib/libsomxamrd.so:system/lib/libsomxamrd.so \
-    vendor/samsung/epic4gtouch/proprietary/omx/lib/libsomxamre.so:system/lib/libsomxamre.so \
-    vendor/samsung/epic4gtouch/proprietary/omx/lib/libsomxcmn.so:system/lib/libsomxcmn.so \
-    vendor/samsung/epic4gtouch/proprietary/omx/lib/libsomxcore.so:system/lib/libsomxcore.so \
-    vendor/samsung/epic4gtouch/proprietary/omx/lib/libsomxflacd.so:system/lib/libsomxflacd.so \
-    vendor/samsung/epic4gtouch/proprietary/omx/lib/libsomxmp3d.so:system/lib/libsomxmp3d.so \
-    vendor/samsung/epic4gtouch/proprietary/omx/lib/libsomxmp4vd.so:system/lib/libsomxmp4vd.so \
-    vendor/samsung/epic4gtouch/proprietary/omx/lib/libsomxmp43d.so:system/lib/libsomxmp43d.so \
-    vendor/samsung/epic4gtouch/proprietary/omx/lib/libsomxsr263d.so:system/lib/libsomxsr263d.so \
-    vendor/samsung/epic4gtouch/proprietary/omx/lib/libsomxvc1d.so:system/lib/libsomxvc1d.so \
-    vendor/samsung/epic4gtouch/proprietary/omx/lib/libsomxvenc.so:system/lib/libsomxvenc.so \
-    vendor/samsung/epic4gtouch/proprietary/omx/lib/libsomxwmad.so:system/lib/libsomxwmad.so \
-    vendor/samsung/epic4gtouch/proprietary/omx/lib/libsomxwmv7d.so:system/lib/libsomxwmv7d.so \
-    vendor/samsung/epic4gtouch/proprietary/omx/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so \
-	vendor/samsung/epic4gtouch/proprietary/omx/lib/libsAMRNB.so:system/lib/libsAMRNB.so \
-	vendor/samsung/epic4gtouch/proprietary/omx/lib/libsAMRWB.so:system/lib/libsAMRWB.so
 
 # Sensors
 PRODUCT_COPY_FILES += \
