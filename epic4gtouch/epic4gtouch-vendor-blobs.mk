@@ -18,7 +18,8 @@ PRODUCT_COPY_FILES := \
     vendor/samsung/epic4gtouch/proprietary/ril/lib/libsec-ril40.so:system/lib/libsec-ril40.so \
     vendor/samsung/epic4gtouch/proprietary/ril/lib/libsecril-client.so:obj/lib/libsecril-client.so \
 	vendor/samsung/epic4gtouch/proprietary/hwcomposer/lib/libTVOut.so:obj/lib/libTVOut.so \
-    vendor/samsung/epic4gtouch/proprietary/audio/lib/libmediayamahaservice.so:obj/lib/libmediayamahaservice.so
+    vendor/samsung/epic4gtouch/proprietary/audio/lib/libmediayamahaservice.so:obj/lib/libmediayamahaservice.so \
+	vendor/samsung/epic4gtouch/proprietary/hwcomposer/lib/libfimc.so:obj/lib/libfimc.so \
  
 # All the blobs necessary for epic4gtouch
     
