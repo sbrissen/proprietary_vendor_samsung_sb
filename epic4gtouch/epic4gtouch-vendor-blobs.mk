@@ -17,10 +17,11 @@ PRODUCT_COPY_FILES := \
     vendor/samsung/epic4gtouch/proprietary/ril/lib/libril.so:obj/lib/libril.so \
     vendor/samsung/epic4gtouch/proprietary/ril/lib/libsec-ril40.so:system/lib/libsec-ril40.so \
     vendor/samsung/epic4gtouch/proprietary/ril/lib/libsecril-client.so:obj/lib/libsecril-client.so \
-	vendor/samsung/epic4gtouch/proprietary/hwcomposer/lib/libTVOut.so:obj/lib/libTVOut.so \
     vendor/samsung/epic4gtouch/proprietary/audio/lib/libmediayamahaservice.so:obj/lib/libmediayamahaservice.so \
 	vendor/samsung/epic4gtouch/proprietary/hwcomposer/lib/libfimc.so:obj/lib/libfimc.so \
+	vendor/samsung/epic4gtouch/proprietary/hwcomposer/lib/libhdmi.so:obj/lib/libhdmi.so \
 	vendor/samsung/epic4gtouch/proprietary/hwcomposer/lib/libhdmiclient.so:obj/lib/libhdmiclient.so \
+	vendor/samsung/epic4gtouch/proprietary/hwcomposer/lib/libTVOut.so:obj/lib/libTVOut.so
  
 # All the blobs necessary for epic4gtouch
     
@@ -34,42 +35,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/epic4gtouch/proprietary/ril/bin/rild:system/bin/rild \
 	vendor/samsung/epic4gtouch/proprietary/ril/etc/ppp/ip-down:system/etc/ppp/ip-down
 
-# Keylayout
-PRODUCT_COPY_FILES += \
-    vendor/samsung/epic4gtouch/proprietary/keylayout/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
-    vendor/samsung/epic4gtouch/proprietary/keylayout/usr/keylayout/Generic.kl:system/usr/keylayout/Generic.kl \
-    vendor/samsung/epic4gtouch/proprietary/keylayout/usr/keylayout/max8997-muic.kl:system/usr/keylayout/max8997-muic.kl \
-    vendor/samsung/epic4gtouch/proprietary/keylayout/usr/keylayout/melfas-touchkey.kl:system/usr/keylayout/melfas-touchkey.kl \
-    vendor/samsung/epic4gtouch/proprietary/keylayout/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
-    vendor/samsung/epic4gtouch/proprietary/keylayout/usr/keylayout/samsung-keypad.kl:system/usr/keylayout/samsung-keypad.kl \
-    vendor/samsung/epic4gtouch/proprietary/keylayout/usr/keylayout/sec_key.kl:system/usr/keylayout/sec_key.kl \
-    vendor/samsung/epic4gtouch/proprietary/keylayout/usr/keylayout/sec_touchkey.kl:system/usr/keylayout/sec_touchkey.kl \
-	vendor/samsung/epic4gtouch/proprietary/keylayout/usr/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
-    vendor/samsung/epic4gtouch/proprietary/keylayout/usr/keylayout/Vendor_04e8_Product_7021.kl:system/usr/keylayout/Vendor_04e8_Product_7021.kl \
-    vendor/samsung/epic4gtouch/proprietary/keylayout/usr/keylayout/Vendor_05ac_Product_0239.kl:system/usr/keylayout/Vendor_05ac_Product_0239.kl \
-    vendor/samsung/epic4gtouch/proprietary/keylayout/usr/keylayout/Vendor_22b8_Product_093d.kl:system/usr/keylayout/Vendor_22b8_Product_093d.kl \
-    vendor/samsung/epic4gtouch/proprietary/keylayout/usr/keylayout/Vendor_045e_Product_028e.kl:system/usr/keylayout/Vendor_045e_Product_028e.kl \
-    vendor/samsung/epic4gtouch/proprietary/keylayout/usr/keylayout/Vendor_046d_Product_c216.kl:system/usr/keylayout/Vendor_046d_Product_c216.kl \
-    vendor/samsung/epic4gtouch/proprietary/keylayout/usr/keylayout/Vendor_046d_Product_c294.kl:system/usr/keylayout/Vendor_046d_Product_c294.kl \
-    vendor/samsung/epic4gtouch/proprietary/keylayout/usr/keylayout/Vendor_046d_Product_c299.kl:system/usr/keylayout/Vendor_046d_Product_c299.kl \
-    vendor/samsung/epic4gtouch/proprietary/keylayout/usr/keylayout/Vendor_046d_Product_c532.kl:system/usr/keylayout/Vendor_046d_Product_c532.kl \
-	vendor/samsung/epic4gtouch/proprietary/keylayout/usr/keylayout/Vendor_054c_Product_0268.kl:system/usr/keylayout/Vendor_054c_Product_0268.kl \
-	vendor/samsung/epic4gtouch/proprietary/keylayout/usr/keylayout/sec_jack.kl:system/usr/keylayout/sec_jack.kl
-	
-# Keychars
-PRODUCT_COPY_FILES += \
-   vendor/samsung/epic4gtouch/proprietary/keylayout/usr/keychars/Generic.kcm:system/usr/keychars/Generic.kcm \
-   vendor/samsung/epic4gtouch/proprietary/keylayout/usr/keychars/qwerty.kcm:system/usr/keychars/qwerty.kcm \
-   vendor/samsung/epic4gtouch/proprietary/keylayout/usr/keychars/qwerty2.kcm:system/usr/keychars/qwerty2.kcm \
-   vendor/samsung/epic4gtouch/proprietary/keylayout/usr/keychars/Virtual.kcm:system/usr/keychars/Virtual.kcm
-
-#idc
-PRODUCT_COPY_FILES += \
-   vendor/samsung/epic4gtouch/proprietary/keylayout/usr/idc/melfas_ts.idc:system/usr/idc/melfas_ts.idc \
-   vendor/samsung/epic4gtouch/proprietary/keylayout/usr/idc/mxt224_ts_input.idc:system/usr/idc/mxt224_ts_input.idc \
-   vendor/samsung/epic4gtouch/proprietary/keylayout/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc \
-   vendor/samsung/epic4gtouch/proprietary/keylayout/usr/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
-   vendor/samsung/epic4gtouch/proprietary/keylayout/usr/idc/sec_touchscreen.idc:system/usr/idc/sec_touchscreen.idc 
 	
 # Graphics
 PRODUCT_COPY_FILES += \
@@ -80,39 +45,41 @@ PRODUCT_COPY_FILES += \
  	vendor/samsung/epic4gtouch/proprietary/graphics/lib/hw/gralloc.exynos4.so:system/lib/hw/gralloc.exynos4.so \
     vendor/samsung/epic4gtouch/proprietary/graphics/lib/libMali.so:system/lib/libMali.so \
 	vendor/samsung/epic4gtouch/proprietary/graphics/lib/libion.so:system/lib/libion.so \
+	vendor/samsung/epic4gtouch/proprietary/graphics/lib/libUMP.so:system/lib/libUMP.so \
 	vendor/samsung/epic4gtouch/proprietary/graphics/lib/libGLESv2_dbg.so:system/lib/libGLESv2_dbg.so \
 	vendor/samsung/epic4gtouch/proprietary/graphics/lib/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
 	vendor/samsung/epic4gtouch/proprietary/graphics/lib/libGLESv2.so:system/lib/libGLESv2.so
 
 # HWCOMPOSER - needs SecTVOutService
 PRODUCT_COPY_FILES += \
-    vendor/samsung/epic4gtouch/proprietary/hwcomposer/lib/hw/hwcomposer.exynos4.so:system/lib/hw/hwcomposer.exynos4.so \
     vendor/samsung/epic4gtouch/proprietary/hwcomposer/bin/bintvoutservice:system/bin/bintvoutservice \
     vendor/samsung/epic4gtouch/proprietary/hwcomposer/lib/libfimc.so:system/lib/libfimc.so \
-    vendor/samsung/epic4gtouch/proprietary/hwcomposer/lib/libfimg.so:system/lib/libfimg.so \
-	vendor/samsung/epic4gtouch/proprietary/hwcomposer/lib/libTVOut.so:system/lib/libTVOut.so \
+	vendor/samsung/epic4gtouch/proprietary/hwcomposer/lib/libhdmi.so:system/lib/libhdmi.so \
 	vendor/samsung/epic4gtouch/proprietary/hwcomposer/lib/libhdmiclient.so:system/lib/libhdmiclient.so \
+	vendor/samsung/epic4gtouch/proprietary/hwcomposer/lib/libTVOut.so:system/lib/libTVOut.so \
+    vendor/samsung/epic4gtouch/proprietary/hwcomposer/lib/libtvout_jni.so:system/lib/libtvout_jni.so \
 	vendor/samsung/epic4gtouch/proprietary/hwcomposer/lib/libcec.so:system/lib/libcec.so \
 	vendor/samsung/epic4gtouch/proprietary/hwcomposer/lib/libddc.so:system/lib/libddc.so \
-	vendor/samsung/epic4gtouch/proprietary/hwcomposer/lib/libedid.so:system/lib/libedid.so \
-	vendor/samsung/epic4gtouch/proprietary/hwcomposer/lib/libhdmi.so:system/lib/libhdmi.so \
-    vendor/samsung/epic4gtouch/proprietary/hwcomposer/lib/libtvout_jni.so:system/lib/libtvout_jni.so \
+    vendor/samsung/epic4gtouch/proprietary/hwcomposer/lib/libedid.so:system/lib/libedid.so \
+	vendor/samsung/epic4gtouch/proprietary/hwcomposer/lib/hw/hwcomposer.exynos4.so:system/lib/hw/hwcomposer.exynos4.so \
     vendor/samsung/epic4gtouch/proprietary/hwcomposer/lib/libtvoutinterface.so:system/lib/libtvoutinterface.so \
     vendor/samsung/epic4gtouch/proprietary/hwcomposer/lib/libtvoutservice.so:system/lib/libtvoutservice.so
-
+#	vendor/samsung/epic4gtouch/proprietary/hwcomposer/lib/libui.so:system/lib/libui.so \
+	
 # CAMERA
 PRODUCT_COPY_FILES += \
-    vendor/samsung/epic4gtouch/proprietary/camera/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/samsung/epic4gtouch/proprietary/camera/lib/libcaps.so:system/lib/libcaps.so \
 	vendor/samsung/epic4gtouch/proprietary/camera/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
 	vendor/samsung/epic4gtouch/proprietary/camera/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
-    vendor/samsung/epic4gtouch/proprietary/camera/lib/hw/camera.exynos4.so:system/lib/hw/vendor-camera.exynos4.so \
-	vendor/samsung/epic4gtouch/proprietary/camera/lib/libs5pjpeg.so:system/lib/libs5pjpeg.so \
+    vendor/samsung/epic4gtouch/proprietary/camera/lib/hw/camera.exynos4.so:system/lib/hw/vendor-camera.exynos4.so
+
+# 	vendor/samsung/epic4gtouch/proprietary/camera/lib/libs5pjpeg.so:system/lib/libs5pjpeg.so \	
+#     vendor/samsung/epic4gtouch/proprietary/camera/lib/libcamera_client.so:system/lib/libcamera_client.so \
 
 # Sensors
 PRODUCT_COPY_FILES += \
-	vendor/samsung/epic4gtouch/proprietary/sensors/lib/libakm.so:system/lib/libakm.so \
-	vendor/samsung/epic4gtouch/proprietary/sensors/lib/hw/sensors.exynos4.so:system/lib/hw/sensors.exynos4.so
+	vendor/samsung/epic4gtouch/proprietary/sensors/lib/libakm.so:system/lib/libakm.so
+	#vendor/samsung/epic4gtouch/proprietary/sensors/lib/hw/sensors.exynos4.so:system/lib/hw/sensors.exynos4.so
 
 # GPS
 PRODUCT_COPY_FILES += \
@@ -135,6 +102,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	vendor/samsung/epic4gtouch/proprietary/wimax/etc/wimaxfw.bin:system/etc/wimaxfw.bin \
 	vendor/samsung/epic4gtouch/proprietary/wimax/etc/wimaxloader.bin:system/etc/wimaxloader.bin \
+	vendor/samsung/epic4gtouch/proprietary/wimax/etc/wimaxfw.bin:system/vendor/firmware/wimaxfw.bin \
+	vendor/samsung/epic4gtouch/proprietary/wimax/etc/wimaxloader.bin:system/vendor/firmware/wimaxloader.bin \
 	vendor/samsung/epic4gtouch/proprietary/wimax/etc/wimax_boot.bin:system/etc/wimax_boot.bin \
 	vendor/samsung/epic4gtouch/proprietary/wimax/lib/libWiMAXNative.so:system/lib/libWiMAXNative.so \
 	vendor/samsung/epic4gtouch/proprietary/wimax/lib/libSECmWiMAXcAPI.so:system/lib/libSECmWiMAXcAPI.so \
@@ -220,3 +189,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/epic4gtouch/proprietary/lpm/media/Disconnected.qmg:system/media/Disconnected.qmg \
     vendor/samsung/epic4gtouch/proprietary/lpm/media/LMprec_508.emd:system/media/LMprec_508.emd \
     vendor/samsung/epic4gtouch/proprietary/lpm/media/PFFprec_600.emd:system/media/PFFprec_600.emd
+	
+# MFC
+PRODUCT_COPY_FILES += \
+    vendor/samsung/epic4gtouch/proprietary/mfc/mfc_fw.bin:/system/vendor/firmware/mfc_fw.bin
