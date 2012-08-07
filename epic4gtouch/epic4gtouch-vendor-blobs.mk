@@ -67,9 +67,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/epic4gtouch/proprietary/camera/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
     vendor/samsung/epic4gtouch/proprietary/camera/lib/hw/camera.exynos4.so:system/lib/hw/vendor-camera.exynos4.so
 
-# 	vendor/samsung/epic4gtouch/proprietary/camera/lib/libs5pjpeg.so:system/lib/libs5pjpeg.so \	
-#     vendor/samsung/epic4gtouch/proprietary/camera/lib/libcamera_client.so:system/lib/libcamera_client.so \
-
 # Sensors
 PRODUCT_COPY_FILES += \
 	vendor/samsung/epic4gtouch/proprietary/sensors/lib/libakm.so:system/lib/libakm.so
@@ -94,10 +91,10 @@ PRODUCT_COPY_FILES += \
 	
 #WIMAX
 PRODUCT_COPY_FILES += \
-	vendor/samsung/epic4gtouch/proprietary/wimax/etc/wimaxfw.bin:system/etc/wimaxfw.bin \
-	vendor/samsung/epic4gtouch/proprietary/wimax/etc/wimaxloader.bin:system/etc/wimaxloader.bin \
 	vendor/samsung/epic4gtouch/proprietary/wimax/etc/wimaxfw.bin:system/vendor/firmware/wimaxfw.bin \
+	vendor/samsung/epic4gtouch/proprietary/wimax/etc/wimaxfw.bin:system/etc/wimaxfw.bin \
 	vendor/samsung/epic4gtouch/proprietary/wimax/etc/wimaxloader.bin:system/vendor/firmware/wimaxloader.bin \
+	vendor/samsung/epic4gtouch/proprietary/wimax/etc/wimaxloader.bin:system/etc//wimaxloader.bin \
 	vendor/samsung/epic4gtouch/proprietary/wimax/etc/wimax_boot.bin:system/etc/wimax_boot.bin \
 	vendor/samsung/epic4gtouch/proprietary/wimax/lib/libWiMAXNative.so:system/lib/libWiMAXNative.so \
 	vendor/samsung/epic4gtouch/proprietary/wimax/lib/libSECmWiMAXcAPI.so:system/lib/libSECmWiMAXcAPI.so \
@@ -156,4 +153,8 @@ PRODUCT_COPY_FILES += \
 	
 # Misc
 PRODUCT_COPY_FILES += \
-	vendor/samsung/epic4gtouch/proprietary/bootanimation.zip:system/media/bootanimation.zip
+	vendor/samsung/epic4gtouch/proprietary/bootanimation.zip:system/media/bootanimation.zip \
+	vendor/samsung/epic4gtouch/proprietary/Superuser.apk:system/app/Superuser.apk \
+	vendor/samsung/epic4gtouch/proprietary/su:system/xbin/su \
+	vendor/samsung/epic4gtouch/proprietary/j4fs.ko:system/lib/modules/j4fs.ko
+	

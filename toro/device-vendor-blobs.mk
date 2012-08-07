@@ -47,3 +47,7 @@ PRODUCT_COPY_FILES += \
 # All the apks necessary for toro
 PRODUCT_PACKAGES += \
     RTN
+	
+# Misc
+PRODUCT_COPY_FILES += \
+	vendor/samsung/toro/proprietary/bootanimation.zip:system/media/bootanimation.zip
