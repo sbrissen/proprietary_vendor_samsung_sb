@@ -17,7 +17,7 @@ PRODUCT_PACKAGES += \
 	libfimc \
 	libhdmi \
 	libhdmiclient \
-	libsamsungion \
+	libsecion \
 	libmediayamahaservice \
 	libUMP
  
@@ -151,10 +151,17 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/epic4gtouch/proprietary/mfc/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin
 	
+# WVM
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/Wvm/system/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    $(LOCAL_PATH)/proprietary/Wvm/system/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    $(LOCAL_PATH)/proprietary/Wvm/system/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    $(LOCAL_PATH)/proprietary/Wvm/system/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so
+	
 # Misc
 PRODUCT_COPY_FILES += \
+	vendor/samsung/epic4gtouch/proprietary/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
 	vendor/samsung/epic4gtouch/proprietary/bootanimation.zip:system/media/bootanimation.zip \
-	vendor/samsung/epic4gtouch/proprietary/j4fs.ko:system/lib/modules/j4fs.ko
-#	vendor/samsung/epic4gtouch/proprietary/Superuser.apk:system/app/Superuser.apk \
-#	vendor/samsung/epic4gtouch/proprietary/su:system/xbin/su \
+	vendor/samsung/epic4gtouch/proprietary/Superuser.apk:system/app/Superuser.apk \
+	vendor/samsung/epic4gtouch/proprietary/su:system/xbin/su
 	
