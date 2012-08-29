@@ -55,7 +55,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libmediayamahaservice
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := audio/lib/libmediayamahaservice.so
+LOCAL_SRC_FILES := system/lib/libmediayamahaservice.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -65,7 +65,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libUMP
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := graphics/lib/libUMP.so
+LOCAL_SRC_FILES := system/lib/libUMP.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -75,7 +75,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libTVOut
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := hwcomposer/lib/libTVOut.so
+LOCAL_SRC_FILES := system/lib/libTVOut.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -85,7 +85,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libsecion
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := graphics/lib/libion.so
+LOCAL_SRC_FILES := system/lib/libion.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -95,7 +95,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libfimc
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := hwcomposer/lib/libfimc.so
+LOCAL_SRC_FILES := system/lib/libfimc.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -105,7 +105,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libhdmi
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := hwcomposer/lib/libhdmi.so
+LOCAL_SRC_FILES := system/lib/libhdmi.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -115,7 +115,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libhdmiclient
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := hwcomposer/lib/libhdmiclient.so
+LOCAL_SRC_FILES := system/lib/libhdmiclient.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES

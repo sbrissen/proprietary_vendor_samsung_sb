@@ -34,28 +34,26 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
 	$(LOCAL_PATH)/proprietary/system/etc/ppp/ip-up:system/etc/ppp/ip-up \
 	$(LOCAL_PATH)/proprietary/system/etc/ppp/ip-down:system/etc/ppp/ip-down \
-    $(LOCAL_PATH)/proprietary/system/etc/system/nvram_mfg.txt:system/etc/system/nvram_mfg.txt \
-    $(LOCAL_PATH)/proprietary/system/etc/system/nvram_net.txt:system/etc/system/nvram_net.txt \
-	$(LOCAL_PATH)/proprietary/system/etc/system/bcm4330_p2p.bin:system/etc/system/bcm4330_p2p.bin \
-	$(LOCAL_PATH)/proprietary/system/etc/system/bcm4330_sta.bin:system/etc/system/bcm4330_sta.bin \
-	$(LOCAL_PATH)/proprietary/system/etc/system/bcm4330_apsta.bin:system/etc/system/bcm4330_apsta.bin \
-	$(LOCAL_PATH)/proprietary/system/etc/system/bcm4330_mfg.bin:system/etc/system/bcm4330_mfg.bin \
-	$(LOCAL_PATH)/proprietary/system/etc/system/wpa_supplicant.conf:system/etc/system/wpa_supplicant.conf \
-	$(LOCAL_PATH)/proprietary/system/etc/wimaxfw.bin:system/vendor/firmware/wimaxfw.bin \
-	$(LOCAL_PATH)/proprietary/system/etc/wimaxloader.bin:system/vendor/firmware/wimaxloader.bin \
+    $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
+    $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
+	$(LOCAL_PATH)/proprietary/system/etc/wifi/bcm4330_p2p.bin:system/etc/wifi/bcm4330_p2p.bin \
+	$(LOCAL_PATH)/proprietary/system/etc/wifi/bcm4330_sta.bin:system/etc/wifi/bcm4330_sta.bin \
+	$(LOCAL_PATH)/proprietary/system/etc/wifi/bcm4330_apsta.bin:system/etc/wifi/bcm4330_apsta.bin \
+	$(LOCAL_PATH)/proprietary/system/etc/wifi/bcm4330_mfg.bin:system/etc/wifi/bcm4330_mfg.bin \
+	$(LOCAL_PATH)/proprietary/system/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
 	$(LOCAL_PATH)/proprietary/system/etc/wimax_boot.bin:system/etc/wimax_boot.bin \
-    $(LOCAL_PATH)/proprietary/system/etc/system/LVVEFS_Rx_Configuration.txt:system/etc/system/LVVEFS_Rx_Configuration.txt \
-    $(LOCAL_PATH)/proprietary/system/etc/system/LVVEFS_Tx_Configuration.txt:system/etc/system/LVVEFS_Tx_Configuration.txt \
-    $(LOCAL_PATH)/proprietary/system/etc/system/Rx_ControlParams_EARPIECE_WIDEBAND.txt:system/etc/system/Rx_ControlParams_EARPIECE_WIDEBAND.txt \
-    $(LOCAL_PATH)/proprietary/system/etc/system/Rx_ControlParams_SPEAKER_WIDEBAND.txt:system/etc/system/Rx_ControlParams_SPEAKER_WIDEBAND.txt \
-    $(LOCAL_PATH)/proprietary/system/etc/system/Rx_ControlParams_WIRED_HEADPHONE_WIDEBAND.txt:system/etc/system/Rx_ControlParams_WIRED_HEADPHONE_WIDEBAND.txt \
-    $(LOCAL_PATH)/proprietary/system/etc/system/Rx_ControlParams_WIRED_HEADSET_WIDEBAND.txt:system/etc/system/Rx_ControlParams_WIRED_HEADSET_WIDEBAND.txt \
-    $(LOCAL_PATH)/proprietary/system/etc/system/Tx_ControlParams_EARPIECE_WIDEBAND.txt:system/etc/system/Tx_ControlParams_EARPIECE_WIDEBAND.txt \
-    $(LOCAL_PATH)/proprietary/system/etc/system/Tx_ControlParams_SPEAKER_WIDEBAND.txt:system/etc/system/Tx_ControlParams_SPEAKER_WIDEBAND.txt \
-    $(LOCAL_PATH)/proprietary/system/etc/system/Tx_ControlParams_WIRED_HEADPHONE_WIDEBAND.txt:system/etc/system/Tx_ControlParams_WIRED_HEADPHONE_WIDEBAND.txt \
-    $(LOCAL_PATH)/proprietary/system/etc/system/Tx_ControlParams_WIRED_HEADSET_WIDEBAND.txt:system/etc/system/Tx_ControlParams_WIRED_HEADSET_WIDEBAND.txt \
-	$(LOCAL_PATH)/proprietary/system/etc/system/Rx_ControlParams_BLUETOOTH_HEADSET.txt:system/etc/system/Rx_ControlParams_BLUETOOTH_HEADSET.txt \
-	$(LOCAL_PATH)/proprietary/system/etc/system/Tx_ControlParams_BLUETOOTH_HEADSET.txt:system/etc/system/Tx_ControlParams_BLUETOOTH_HEADSET.txt \
+    $(LOCAL_PATH)/proprietary/system/etc/audio/LVVEFS_Rx_Configuration.txt:system/etc/audio/LVVEFS_Rx_Configuration.txt \
+    $(LOCAL_PATH)/proprietary/system/etc/audio/LVVEFS_Tx_Configuration.txt:system/etc/audio/LVVEFS_Tx_Configuration.txt \
+    $(LOCAL_PATH)/proprietary/system/etc/audio/Rx_ControlParams_EARPIECE_WIDEBAND.txt:system/etc/audio/Rx_ControlParams_EARPIECE_WIDEBAND.txt \
+    $(LOCAL_PATH)/proprietary/system/etc/audio/Rx_ControlParams_SPEAKER_WIDEBAND.txt:system/etc/audio/Rx_ControlParams_SPEAKER_WIDEBAND.txt \
+    $(LOCAL_PATH)/proprietary/system/etc/audio/Rx_ControlParams_WIRED_HEADPHONE_WIDEBAND.txt:system/etc/audio/Rx_ControlParams_WIRED_HEADPHONE_WIDEBAND.txt \
+    $(LOCAL_PATH)/proprietary/system/etc/audio/Rx_ControlParams_WIRED_HEADSET_WIDEBAND.txt:system/etc/audio/Rx_ControlParams_WIRED_HEADSET_WIDEBAND.txt \
+    $(LOCAL_PATH)/proprietary/system/etc/audio/Tx_ControlParams_EARPIECE_WIDEBAND.txt:system/etc/audio/Tx_ControlParams_EARPIECE_WIDEBAND.txt \
+    $(LOCAL_PATH)/proprietary/system/etc/audio/Tx_ControlParams_SPEAKER_WIDEBAND.txt:system/etc/audio/Tx_ControlParams_SPEAKER_WIDEBAND.txt \
+    $(LOCAL_PATH)/proprietary/system/etc/audio/Tx_ControlParams_WIRED_HEADPHONE_WIDEBAND.txt:system/etc/audio/Tx_ControlParams_WIRED_HEADPHONE_WIDEBAND.txt \
+    $(LOCAL_PATH)/proprietary/system/etc/audio/Tx_ControlParams_WIRED_HEADSET_WIDEBAND.txt:system/etc/audio/Tx_ControlParams_WIRED_HEADSET_WIDEBAND.txt \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/Rx_ControlParams_BLUETOOTH_HEADSET.txt:system/etc/audio/Rx_ControlParams_BLUETOOTH_HEADSET.txt \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/Tx_ControlParams_BLUETOOTH_HEADSET.txt:system/etc/audio/Tx_ControlParams_BLUETOOTH_HEADSET.txt \
 	$(LOCAL_PATH)/proprietary/system/framework/wimax_service.jar:system/framework/wimax_service.jar	\
     $(LOCAL_PATH)/proprietary/system/lib/libril.so:system/lib/libril.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsecril-client.so:system/lib/libsecril-client.so \
@@ -117,9 +115,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/usr/share/alsa/pcm/surround50.conf:system/usr/share/alsa/pcm/surround50.conf \
     $(LOCAL_PATH)/proprietary/system/usr/share/alsa/pcm/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
     $(LOCAL_PATH)/proprietary/system/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf \
-    $(LOCAL_PATH)/proprietary/system/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
     $(LOCAL_PATH)/proprietary/system/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     $(LOCAL_PATH)/proprietary/system/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     $(LOCAL_PATH)/proprietary/system/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     $(LOCAL_PATH)/proprietary/system/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-	$(LOCAL_PATH)/proprietary/system/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
+	$(LOCAL_PATH)/proprietary/system/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
+	$(LOCAL_PATH)/proprietary/system/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
+	$(LOCAL_PATH)/proprietary/system/vendor/firmware/wimaxfw.bin:system/vendor/firmware/wimaxfw.bin \
+	$(LOCAL_PATH)/proprietary/system/vendor/firmware/wimaxloader.bin:system/vendor/firmware/wimaxloader.bin
